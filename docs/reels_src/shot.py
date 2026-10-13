@@ -11,6 +11,7 @@ with sync_playwright() as p:
     pg.wait_for_function('window.ready===true', timeout=15000)
     for w in (500,600,700,800,900):
         pg.evaluate(f'document.fonts.load("{w} 40px P","가1")')
+    pg.evaluate('''Promise.all([0,1,2].map(i=>new Promise(r=>{const im=new Image();im.onload=r;im.onerror=r;im.src=`grain${i}.png`})))''')
     pg.wait_for_timeout(400)
     if mode == 'still':
         os.makedirs(f'{D}/still{ep}', exist_ok=True)

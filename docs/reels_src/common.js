@@ -161,6 +161,9 @@ function endcard(t,t0,l1,l2,tw){
   txt+=`<line x1="90" y1="544" x2="210" y2="544" stroke="${DEEP}" stroke-width="4"/>`;
   txt+=stamp(t,t0,90,700,ink(90,690,l1,104,900)+ink(90,822,l2,104,900));
   art+=cd(820,1090,120,tw*2.2);
+  if(t-t0>0.3){
+    txt+=stamp(t,t0+0.3,300,1000,`<rect x="86" y="950" width="520" height="92" fill="none" stroke="${DEEP}" stroke-width="6"/>`+ink(346,1012,'팔로우하면 다음 편이 떠요',40,800,{anchor:'middle',fill:DEEP,ls:-0.5}));
+  }
   if(t-t0>0.6){
     txt+=stamp(t,t0+0.6,90,1240,ink(90,1250,'보다아트',70,900,{mis:[6,5]}));
     txt+=ink(90,1316,'2007년부터 음반을 만듭니다',38,600,{fill:GREY,ls:-0.5});
