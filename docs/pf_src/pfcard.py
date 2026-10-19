@@ -41,7 +41,7 @@ def cover_html(spec, photo, size):
     iw, ih = size
     bw, bh = W, 860
     sc_cover = max(bw / iw, bh / ih)
-    if sc_cover <= 2.0:
+    if sc_cover <= 2.0 and spec.get('cover_mode') != 'contain':
         sc = sc_cover
         fx, fy = spec.get('focus', [0.5, 0.5])
         w, h = iw * sc, ih * sc
