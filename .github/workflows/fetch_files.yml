@@ -1,0 +1,27 @@
+name: 파일 가져오기
+on:
+  push:
+    branches: [main]
+    paths: ['fetch/list.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p fetch/out
+          while IFS=' ' read -r name url; do
+            [ -z "$name" ] && continue
+            case "$name" in \#*) continue;; esac
+            curl -sS -L --retry 3 -o "fetch/out/$name" "$url" && echo "ok $name" || echo "FAIL $name"
+          done < fetch/list.txt
+          ls -la fetch/out
+      - run: |
+          git config user.name "bodaart-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fetch/out
+          git commit -m "파일 가져옴" || exit 0
+          git push
