@@ -1,2 +1,3 @@
 # 이름 주소 (한 줄에 하나)
-vo_F_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_063605_d4cfad1c-60c9-4ae6-a24b-4c261b4d9327.wav
+vo_H_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_064244_91799afe-fda4-4637-975b-bcd5abb938e1.wav
+vo_A_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_064308_d6f6eb99-c153-4013-ae0d-cf5bb14c87e6.wav
