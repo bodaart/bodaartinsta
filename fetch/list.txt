@@ -1,21 +1,2 @@
 # 이름 주소 (한 줄에 하나)
-vo_A_0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_50844f7f-f799-4908-a8ee-33bd5627e6d5.wav
-vo_A_1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_843023ab-c9be-4613-aae1-83c3b7df3e92.wav
-vo_A_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_49d59978-5fc1-4929-a236-0821701a0512.wav
-vo_A_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061257_34d52a4c-3e05-482a-a1e3-ef36512439e7.wav
-vo_A_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_0c5e27a5-90df-482b-a71a-580374f6ae7f.wav
-vo_A_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_afb516d9-4c92-4703-86e3-ff601568fba5.wav
-vo_F_0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_3821a9f2-aa13-48f1-b9e2-19bdd19aba2e.wav
-vo_F_1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061225_81615ae0-72a7-4015-859c-fb5d6a3175ee.wav
-vo_F_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061335_40faa3f0-e2e9-49a5-8609-cc6be68f86fb.wav
-vo_F_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061257_6600f781-cdeb-4074-b6e8-76f6fd27952e.wav
-vo_F_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061336_f81187e9-2b2e-402d-9809-5e0ee67fd529.wav
-vo_F_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061336_3308eb65-d213-4f46-b099-91133098fe9e.wav
-vo_F_6.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061335_ff3f03b6-39f0-4f7e-b4c8-fda4d02d921e.wav
-vo_H_0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061435_f26ae80a-dc42-45af-9220-00af9daba3d8.wav
-vo_H_1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061409_1bd2aa1a-8e89-4f8b-a91e-3cd662d70253.wav
-vo_H_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061435_99e51f32-1e4f-4998-a244-584e25c9aa18.wav
-vo_H_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061435_304deab8-0b74-44bb-930d-89b229f4cd10.wav
-vo_H_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061504_f66b0b8d-c349-4b22-98a3-6779d26d3673.wav
-vo_H_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061530_25957a8e-4deb-41bb-a97b-bab65cf7cc7f.wav
-vo_H_6.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_061504_6238274e-888e-4ef3-9cfe-a49feeff9ab9.wav
+vo_F_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_063605_d4cfad1c-60c9-4ae6-a24b-4c261b4d9327.wav
