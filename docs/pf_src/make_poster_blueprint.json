@@ -1,5 +1,5 @@
 {
- "name": "보다아트 샘플 캐러셀 게시 (대기열에서 하나씩)",
+ "name": "보다아트 샘플 캐러셀 게시 (대기열에서 하나씩, 인스타 + 페북)",
  "metadata": {
   "version": 1,
   "instant": false,
@@ -77,10 +77,10 @@
        "module": "instagram-business:CreateCarouselPhoto",
        "version": 1,
        "parameters": {
-        "__IMTCONN__": 11614196
+        "__IMTCONN__": 0
        },
        "mapper": {
-        "accountId": "(인스타 계정 번호 — Make 연결에서 선택)",
+        "accountId": "<INSTAGRAM_ACCOUNT_ID>",
         "caption": "{{1.data.text}}",
         "files": [
          {
@@ -116,6 +116,28 @@
        "mapper": {
         "key": "{{1.key}}"
        }
+      },
+      {
+       "id": 30,
+       "module": "facebook-pages:CreatePostWithPhotos",
+       "version": 6,
+       "parameters": {
+        "__IMTCONN__": 0
+       },
+       "mapper": {
+        "page_id": "<FACEBOOK_PAGE_ID>",
+        "photos": [
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 1)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 2)}}"
+         }
+        ],
+        "message": "{{1.data.text}}"
+       }
       }
      ]
     },
@@ -126,10 +148,10 @@
        "module": "instagram-business:CreateCarouselPhoto",
        "version": 1,
        "parameters": {
-        "__IMTCONN__": 11614196
+        "__IMTCONN__": 0
        },
        "mapper": {
-        "accountId": "(인스타 계정 번호 — Make 연결에서 선택)",
+        "accountId": "<INSTAGRAM_ACCOUNT_ID>",
         "caption": "{{1.data.text}}",
         "files": [
          {
@@ -169,6 +191,32 @@
        "mapper": {
         "key": "{{1.key}}"
        }
+      },
+      {
+       "id": 31,
+       "module": "facebook-pages:CreatePostWithPhotos",
+       "version": 6,
+       "parameters": {
+        "__IMTCONN__": 0
+       },
+       "mapper": {
+        "page_id": "<FACEBOOK_PAGE_ID>",
+        "photos": [
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 1)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 2)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 3)}}"
+         }
+        ],
+        "message": "{{1.data.text}}"
+       }
       }
      ]
     },
@@ -179,10 +227,10 @@
        "module": "instagram-business:CreateCarouselPhoto",
        "version": 1,
        "parameters": {
-        "__IMTCONN__": 11614196
+        "__IMTCONN__": 0
        },
        "mapper": {
-        "accountId": "(인스타 계정 번호 — Make 연결에서 선택)",
+        "accountId": "<INSTAGRAM_ACCOUNT_ID>",
         "caption": "{{1.data.text}}",
         "files": [
          {
@@ -226,6 +274,36 @@
        "mapper": {
         "key": "{{1.key}}"
        }
+      },
+      {
+       "id": 32,
+       "module": "facebook-pages:CreatePostWithPhotos",
+       "version": 6,
+       "parameters": {
+        "__IMTCONN__": 0
+       },
+       "mapper": {
+        "page_id": "<FACEBOOK_PAGE_ID>",
+        "photos": [
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 1)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 2)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 3)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 4)}}"
+         }
+        ],
+        "message": "{{1.data.text}}"
+       }
       }
      ]
     },
@@ -236,10 +314,10 @@
        "module": "instagram-business:CreateCarouselPhoto",
        "version": 1,
        "parameters": {
-        "__IMTCONN__": 11614196
+        "__IMTCONN__": 0
        },
        "mapper": {
-        "accountId": "(인스타 계정 번호 — Make 연결에서 선택)",
+        "accountId": "<INSTAGRAM_ACCOUNT_ID>",
         "caption": "{{1.data.text}}",
         "files": [
          {
@@ -287,6 +365,40 @@
        "mapper": {
         "key": "{{1.key}}"
        }
+      },
+      {
+       "id": 33,
+       "module": "facebook-pages:CreatePostWithPhotos",
+       "version": 6,
+       "parameters": {
+        "__IMTCONN__": 0
+       },
+       "mapper": {
+        "page_id": "<FACEBOOK_PAGE_ID>",
+        "photos": [
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 1)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 2)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 3)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 4)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 5)}}"
+         }
+        ],
+        "message": "{{1.data.text}}"
+       }
       }
      ]
     },
@@ -297,10 +409,10 @@
        "module": "instagram-business:CreateCarouselPhoto",
        "version": 1,
        "parameters": {
-        "__IMTCONN__": 11614196
+        "__IMTCONN__": 0
        },
        "mapper": {
-        "accountId": "(인스타 계정 번호 — Make 연결에서 선택)",
+        "accountId": "<INSTAGRAM_ACCOUNT_ID>",
         "caption": "{{1.data.text}}",
         "files": [
          {
@@ -351,6 +463,44 @@
        },
        "mapper": {
         "key": "{{1.key}}"
+       }
+      },
+      {
+       "id": 34,
+       "module": "facebook-pages:CreatePostWithPhotos",
+       "version": 6,
+       "parameters": {
+        "__IMTCONN__": 0
+       },
+       "mapper": {
+        "page_id": "<FACEBOOK_PAGE_ID>",
+        "photos": [
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 1)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 2)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 3)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 4)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 5)}}"
+         },
+         {
+          "type": "url",
+          "url": "{{get(map(1.data.files; \"image_url\"); 6)}}"
+         }
+        ],
+        "message": "{{1.data.text}}"
        }
       }
      ]
