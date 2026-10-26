@@ -1,0 +1,143 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>
+@font-face{font-family:P;font-weight:500;src:url(../package/dist/public/static/Pretendard-Medium.otf)}
+@font-face{font-family:P;font-weight:600;src:url(../package/dist/public/static/Pretendard-SemiBold.otf)}
+@font-face{font-family:P;font-weight:700;src:url(../package/dist/public/static/Pretendard-Bold.otf)}
+@font-face{font-family:P;font-weight:800;src:url(../package/dist/public/static/Pretendard-ExtraBold.otf)}
+@font-face{font-family:P;font-weight:900;src:url(../package/dist/public/static/Pretendard-Black.otf)}
+html,body{margin:0;background:#08080D}#stage{position:relative;overflow:hidden;background:#08080D}
+svg{position:absolute;left:0;top:0}#grain{position:absolute;left:-20px;top:-20px;background-size:1120px 1960px;mix-blend-mode:screen;opacity:.10;background-image:url(../grain1.png)}text{font-family:P}
+</style></head><body><div id="stage"><svg id="s"></svg><div id="grain"></div></div>
+<script>
+const BG='#08080D', INK='#F5F5F7', LIME='#C8FF3D', VIO='#7C6CFF', CYAN='#2FD3F0', PINK='#FF5FA2', GREY='#8E8E9A';
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+function T(x,y,str,size,w,o={}){const ls=o.ls!==undefined?o.ls:-0.035*size;
+  return `<text x="${x}" y="${y}" font-size="${size}" font-weight="${w}" letter-spacing="${ls}" text-anchor="${o.anchor||'start'}" fill="${o.fill||INK}"${o.op?` opacity="${o.op}"`:''}>${esc(str)}</text>`;}
+// 단어 일부만 라임으로
+function TM(x,y,parts,size,w){let s=`<text x="${x}" y="${y}" font-size="${size}" font-weight="${w}" letter-spacing="${-0.035*size}" style="white-space:pre">`;
+  parts.forEach(p=>{s+=`<tspan fill="${p[1]||INK}">${esc(p[0])}</tspan>`}); return s+`</text>`;}
+const DEFS=`<defs>
+ <radialGradient id="g_vio"><stop offset="0" stop-color="${VIO}" stop-opacity="0.55"/><stop offset="1" stop-color="${VIO}" stop-opacity="0"/></radialGradient>
+ <radialGradient id="g_cyan"><stop offset="0" stop-color="${CYAN}" stop-opacity="0.30"/><stop offset="1" stop-color="${CYAN}" stop-opacity="0"/></radialGradient>
+ <radialGradient id="g_lime"><stop offset="0" stop-color="${LIME}" stop-opacity="0.18"/><stop offset="1" stop-color="${LIME}" stop-opacity="0"/></radialGradient>
+ <radialGradient id="discg" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#F4F4F8"/><stop offset="0.55" stop-color="#B9BCC8"/><stop offset="1" stop-color="#6E7180"/></radialGradient>
+ <linearGradient id="glassg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.12"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/></linearGradient>
+ <linearGradient id="artg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${VIO}"/><stop offset="0.6" stop-color="${PINK}"/><stop offset="1" stop-color="#FFB86B"/></linearGradient>
+ <linearGradient id="usbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A2A36"/><stop offset="1" stop-color="#15151C"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8E8EE"/><stop offset="0.5" stop-color="#A3A6B3"/><stop offset="1" stop-color="#D5D7E0"/></linearGradient>
+ <linearGradient id="linkg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${LIME}" stop-opacity="0"/><stop offset="0.5" stop-color="${LIME}"/><stop offset="1" stop-color="${LIME}" stop-opacity="0"/></linearGradient>
+ <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+ <filter id="b8" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="8"/></filter>
+ <radialGradient id="vig" cx="0.5" cy="0.45" r="0.75"><stop offset="0.6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+</defs>`;
+function blobs(W,H,k){const P=[[[200,0.3],[900,0.75],[820,0.2]],[[880,0.4],[180,0.8],[520,0.6]],[[540,0.2],[860,0.9],[160,0.55]],[[300,0.7],[850,0.3],[500,0.95]]][k%4],C=['g_vio','g_cyan','g_lime'];
+  return P.map((p,i)=>`<circle cx="${p[0]}" cy="${(p[1]*H).toFixed(0)}" r="${600-i*80}" fill="url(#${C[i]})"/>`).join('');}
+function glass(x,y,w,h){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="48" fill="url(#glassg)" stroke="rgba(255,255,255,0.16)" stroke-width="1.5"/><path d="M${x+48} ${y+1} H${x+w-48}" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>`;}
+function pill(x,y,str,o={}){const size=o.size||28,w=o.w||(str.length*size*0.95+56),h=size*2;
+  if(o.lime) return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${h/2}" fill="${LIME}"/><text x="${x+w/2}" y="${y+h/2+size*0.36}" font-size="${size}" font-weight="800" text-anchor="middle" fill="#0A0A0A" letter-spacing="-0.5">${esc(str)}</text>`;
+  return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${h/2}" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><circle cx="${x+size}" cy="${y+h/2}" r="${size*0.25}" fill="${LIME}"/><text x="${x+size*1.65}" y="${y+h/2+size*0.36}" font-size="${size}" font-weight="700" fill="${INK}" letter-spacing="-0.5">${esc(str)}</text>`;}
+function cd(cx,cy,r,rot){rot=rot||0.4;
+  let g=`<ellipse cx="${cx}" cy="${cy+r*0.92}" rx="${r*0.85}" ry="${r*0.13}" fill="rgba(0,0,0,0.6)" filter="url(#b8)"/>`;
+  g+=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="url(#discg)"/>`;
+  const ri=r*0.36,ro=r*0.98,H=[PINK,LIME,CYAN,VIO,'#FFB86B',PINK];
+  for(let i=0;i<6;i++){const a0=rot*1.3+i*Math.PI/3,a1=a0+Math.PI/3;
+    g+=`<path d="M${cx+ri*Math.cos(a0)} ${cy+ri*Math.sin(a0)} L${cx+ro*Math.cos(a0)} ${cy+ro*Math.sin(a0)} A${ro} ${ro} 0 0 1 ${cx+ro*Math.cos(a1)} ${cy+ro*Math.sin(a1)} L${cx+ri*Math.cos(a1)} ${cy+ri*Math.sin(a1)} A${ri} ${ri} 0 0 0 ${cx+ri*Math.cos(a0)} ${cy+ri*Math.sin(a0)} Z" fill="${H[i]}" opacity="0.38"/>`;}
+  const ga=-rot*0.7-0.8,qi=r*0.38,qo=r*0.97;
+  g+=`<path d="M${cx+qi*Math.cos(ga-0.18)} ${cy+qi*Math.sin(ga-0.18)} L${cx+qo*Math.cos(ga-0.12)} ${cy+qo*Math.sin(ga-0.12)} A${qo} ${qo} 0 0 1 ${cx+qo*Math.cos(ga+0.12)} ${cy+qo*Math.sin(ga+0.12)} L${cx+qi*Math.cos(ga+0.18)} ${cy+qi*Math.sin(ga+0.18)} Z" fill="#FFFFFF" opacity="0.45"/>`;
+  g+=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>`;
+  g+=`<circle cx="${cx}" cy="${cy}" r="${r*0.34}" fill="#15151C" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>`;
+  g+=`<circle cx="${cx}" cy="${cy}" r="${r*0.13}" fill="${BG}" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>`;
+  return g;}
+function usb(x,y,w,rot){const h=w*0.42,cx=x+w/2,cy=y+h/2; // 가로로 누운 USB 스틱
+  let g=`<g transform="rotate(${rot||0} ${cx} ${cy})">`;
+  g+=`<rect x="${x+8}" y="${y+10}" width="${w}" height="${h}" rx="${h*0.3}" fill="rgba(0,0,0,0.55)" filter="url(#b8)"/>`;
+  g+=`<rect x="${x}" y="${y}" width="${w*0.68}" height="${h}" rx="${h*0.3}" fill="url(#usbg)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>`;
+  g+=`<rect x="${x+w*0.66}" y="${y+h*0.18}" width="${w*0.34}" height="${h*0.64}" rx="4" fill="url(#metal)"/>`;
+  g+=`<rect x="${x+w*0.74}" y="${y+h*0.32}" width="${w*0.09}" height="${h*0.14}" fill="#5B5E6B"/><rect x="${x+w*0.74}" y="${y+h*0.55}" width="${w*0.09}" height="${h*0.14}" fill="#5B5E6B"/>`;
+  g+=`<circle cx="${x+w*0.14}" cy="${cy}" r="${h*0.11}" fill="${LIME}"/>`;
+  g+=`<rect x="${x+w*0.28}" y="${cy-h*0.09}" width="${w*0.3}" height="${h*0.18}" rx="${h*0.09}" fill="rgba(255,255,255,0.18)"/></g>`;
+  return g;}
+function phone(x,y,w,o={}){const h=w*2.05,r=w*0.13;
+  let g=`<rect x="${x+10}" y="${y+14}" width="${w}" height="${h}" rx="${r}" fill="rgba(0,0,0,0.6)" filter="url(#b8)"/>`;
+  g+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="#111118" stroke="rgba(255,255,255,0.55)" stroke-width="2.5"/>`;
+  g+=`<rect x="${x+w*0.3}" y="${y+w*0.05}" width="${w*0.4}" height="${w*0.055}" rx="${w*0.03}" fill="#000" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>`;
+  const ax=x+w*0.1,ay=y+w*0.2,aw=w*0.8; // 앨범 재킷
+  g+=`<rect x="${ax}" y="${ay}" width="${aw}" height="${aw}" rx="${w*0.05}" fill="url(#artg)"/>`;
+  g+=`<circle cx="${ax+aw*0.5}" cy="${ay+aw*0.5}" r="${aw*0.26}" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="${w*0.012}"/><circle cx="${ax+aw*0.5}" cy="${ay+aw*0.5}" r="${aw*0.07}" fill="rgba(255,255,255,0.85)"/>`;
+  g+=`<rect x="${ax}" y="${ay+aw+w*0.1}" width="${aw*0.7}" height="${w*0.055}" rx="${w*0.027}" fill="rgba(255,255,255,0.85)"/><rect x="${ax}" y="${ay+aw+w*0.2}" width="${aw*0.45}" height="${w*0.04}" rx="${w*0.02}" fill="rgba(255,255,255,0.35)"/>`;
+  const wy=ay+aw+w*0.38; for(let i=0;i<16;i++){const a=Math.abs(Math.sin(i*0.9)*Math.cos(i*0.37)),hh=w*0.03+a*w*0.16;
+    g+=`<line x1="${ax+i*aw/16+aw/32}" y1="${wy-hh/2}" x2="${ax+i*aw/16+aw/32}" y2="${wy+hh/2}" stroke="${i%5==2?LIME:'rgba(255,255,255,0.55)'}" stroke-width="${aw/16*0.45}" stroke-linecap="round"/>`;}
+  const py=ay+aw+w*0.55; g+=`<rect x="${ax}" y="${py}" width="${aw}" height="${w*0.03}" rx="${w*0.015}" fill="rgba(255,255,255,0.2)"/><rect x="${ax}" y="${py}" width="${aw*0.38}" height="${w*0.03}" rx="${w*0.015}" fill="${LIME}"/>`;
+  const cy2=py+w*0.17; g+=`<circle cx="${x+w/2}" cy="${cy2}" r="${w*0.1}" fill="${LIME}"/><path d="M${x+w/2-w*0.03} ${cy2-w*0.045} L${x+w/2+w*0.045} ${cy2} L${x+w/2-w*0.03} ${cy2+w*0.045} Z" fill="#0A0A0A"/>`;
+  g+=`<path d="M${x+w*0.28} ${cy2-w*0.03} l-${w*0.05} ${w*0.03} l${w*0.05} ${w*0.03} Z M${x+w*0.34} ${cy2-w*0.03} l-${w*0.05} ${w*0.03} l${w*0.05} ${w*0.03} Z" fill="rgba(255,255,255,0.7)"/>`;
+  g+=`<path d="M${x+w*0.66} ${cy2-w*0.03} l${w*0.05} ${w*0.03} l-${w*0.05} ${w*0.03} Z M${x+w*0.72} ${cy2-w*0.03} l${w*0.05} ${w*0.03} l-${w*0.05} ${w*0.03} Z" fill="rgba(255,255,255,0.7)"/>`;
+  if(o.badge){g+=`<rect x="${x+w*0.22}" y="${y+h-w*0.2}" width="${w*0.56}" height="${w*0.13}" rx="${w*0.065}" fill="rgba(200,255,61,0.18)" stroke="${LIME}" stroke-width="1.5"/><text x="${x+w/2}" y="${y+h-w*0.09}" font-size="${w*0.075}" font-weight="800" text-anchor="middle" fill="${LIME}" letter-spacing="-0.5">보다코드</text>`;}
+  return g;}
+function link(x1,x2,y,label){let g=`<rect x="${x1}" y="${y-3}" width="${x2-x1}" height="6" rx="3" fill="url(#linkg)"/>`;
+  g+=`<rect x="${x1}" y="${y-10}" width="${x2-x1}" height="20" rx="10" fill="url(#linkg)" opacity="0.5" filter="url(#b8)"/>`;
+  if(label){const w=label.length*30+60,cx=(x1+x2)/2; g+=`<rect x="${cx-w/2}" y="${y-30}" width="${w}" height="60" rx="30" fill="${LIME}"/><text x="${cx}" y="${y+11}" font-size="30" font-weight="800" text-anchor="middle" fill="#0A0A0A" letter-spacing="-0.5">${esc(label)}</text>`;}
+  return g;}
+function check(x,y,lines,size){let g=`<circle cx="${x+22}" cy="${y-size*0.32}" r="22" fill="${LIME}"/><path d="M${x+12} ${y-size*0.32} l7 8 l14 -16" fill="none" stroke="#0A0A0A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+  lines.forEach((l,i)=>{g+=T(x+64,y+i*size*1.3,l,size,700)}); return g;}
+function chrome(W,tag){return pill(60,70,tag)+`<text x="${W-60}" y="110" font-size="24" font-weight="800" fill="rgba(255,255,255,0.75)" letter-spacing="6" text-anchor="end">BODA ART</text>`;}
+function footer(W,H,str){return T(W/2,H-70,str||'보다아트 · 2007년부터 음반을 만듭니다',30,600,{anchor:'middle',fill:GREY,ls:-0.5});}
+function wrap(W,H,k,body){return DEFS+`<rect width="${W}" height="${H}" fill="${BG}"/>`+blobs(W,H,k)+body+`<rect width="${W}" height="${H}" fill="url(#vig)"/>`;}
+
+const PAGES={
+ 1(){const W=1080,H=1350; let b=chrome(W,'음반 CD · USB 음반 제작');
+   b+=T(90,330,'보다아트에서 음반을 만들면',54,700);
+   b+=TM(90,470,[['모바일 음반',LIME],['이',INK]],118,900);
+   b+=T(90,610,'함께 옵니다',118,900);
+   b+=glass(60,680,960,520);
+   b+=cd(300,935,170,0.4)+T(300,1160,'실물 음반',32,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=link(470,650,935,'보다코드');
+   b+=phone(700,700,205,{badge:false})+T(802,1165,'모바일 앱음반',32,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=T(90,1270,'실물음반 + 디지털 앱음반, 하나로 받으세요.',40,700);
+   return wrap(W,H,0,b);},
+ 2(){const W=1080,H=1350; let b=chrome(W,'실물 + 디지털');
+   b+=T(90,340,'실물음반과',104,900);
+   b+=TM(90,460,[['디지털음반',LIME],['의 공유',INK]],104,900);
+   b+=glass(60,560,960,620);
+   b+=cd(250,760,120,0.9)+T(250,920,'음반 CD',30,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=usb(135,990,230,-6)+T(250,1130,'USB 음반',30,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=T(540,900,'+',150,900,{anchor:'middle',fill:LIME});
+   b+=phone(700,600,230,{badge:true})+T(815,1135,'모바일 앱음반',30,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=T(90,1250,'손에 쥐는 실물 음반과',40,700)+T(90,1304,'폰에서 바로 듣는 앱 음반을 함께 드려요.',40,700);
+   return wrap(W,H,1,b);},
+ 3(){const W=1080,H=1350; let b=chrome(W,'스마트 모바일 음반');
+   b+=T(90,340,'당신의 앨범을',104,900);
+   b+=TM(90,460,[['더욱더 ',INK],['새롭게',LIME]],104,900);
+   b+=glass(60,560,960,620);
+   b+=phone(120,600,260,{badge:true});
+   b+=check(450,700,['받은 기기에서','인터넷·서버 없이 계속 재생'],38);
+   b+=check(450,860,['스트리밍처럼','사라지지 않아요'],38);
+   b+=check(450,1020,['보다코드로','실물과 앱을 하나로'],38);
+   b+=T(90,1250,'앱 음반은 계약 기간 동안 소장하는 디지털 음반이에요.',36,600,{fill:GREY,ls:-0.5});
+   return wrap(W,H,2,b);},
+ 4(){const W=1080,H=1350; let b=chrome(W,'보다아트 × 보다뮤직');
+   b+=T(90,310,'시대의 흐름에 맞게',66,800,{fill:GREY});
+   b+=TM(90,430,[['이젠 ',INK],['실물음반',LIME]],100,900);
+   b+=TM(90,548,[['+ 디지털 ',INK],['앱음반',LIME]],100,900);
+   b+=glass(60,630,960,440);
+   b+=cd(220,850,125,1.4)+usb(390,880,190,-8)+T(640,900,'+',110,900,{anchor:'middle',fill:LIME});
+   b+=phone(760,655,190,{badge:true});
+   b+=pill(90,1130,'음반 제작 문의는 프로필 링크',{lime:true,size:36,w:620});
+   b+=T(90,1270,'보다아트 · 2007년부터 음반을 만듭니다',34,600,{fill:GREY,ls:-0.5});
+   return wrap(W,H,3,b);},
+ sq(){const W=1080,H=1080; let b=chrome(W,'음반 CD · USB 음반 제작');
+   b+=T(90,250,'보다아트에서 음반을 만들면',46,700);
+   b+=TM(90,360,[['모바일 음반',LIME],['이 함께',INK]],96,900);
+   b+=glass(60,420,960,470);
+   b+=cd(290,655,150,0.4)+T(290,850,'실물 음반',30,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=link(450,660,655,'보다코드');
+   b+=phone(705,445,190,{badge:false})+T(800,870,'모바일 앱음반',30,700,{anchor:'middle',fill:GREY,ls:-0.5});
+   b+=T(90,960,'실물음반 + 디지털 앱음반, 하나로 받으세요.',38,700);
+   b+=T(W-60,1020,'보다아트 · 2007년부터',26,600,{anchor:'end',fill:GREY,ls:-0.5});
+   return wrap(W,H,0,b);},
+};
+window.show=function(k){const W=1080,H=k==='sq'?1080:1350;
+  const st=document.getElementById('stage'),s=document.getElementById('s'),g=document.getElementById('grain');
+  st.style.width=W+'px';st.style.height=H+'px';s.setAttribute('width',W);s.setAttribute('height',H);s.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  g.style.width=(W+40)+'px';g.style.height=(H+40)+'px';
+  s.innerHTML=PAGES[k]();};
+window.ready=true;
+</script></body></html>
