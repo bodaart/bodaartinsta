@@ -1,1 +1,8 @@
 # 이름 주소 (한 줄에 하나)
+vo_promo_m0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_055912_cf106e38-8fc9-4cd5-be3c-78bc9f91bc55.wav
+vo_promo_m1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_055912_446ea2a4-b2ee-4b9a-ba92-76dd9ef71068.wav
+vo_promo_m2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_055945_afab2259-34c4-4a9f-a988-f15b26bce39b.wav
+vo_promo_m3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_055912_39a816ce-6d49-4e8b-ba1b-3cb2c90fe0d1.wav
+vo_promo_m4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_055912_01584532-f65b-4eb9-b780-987503ae674f.wav
+vo_promo_m5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_060030_20911267-35ee-4849-93ce-a34255bebb05.wav
+vo_promo_m6.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261026_055912_cdb2f81c-8821-4153-bdde-d9cd4924f83f.wav
