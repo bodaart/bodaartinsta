@@ -56,7 +56,7 @@ def cover_html(spec, photo, size):
     return f"""<div class="hero">{img}</div>
 <div class="lab"><span class="bar"></span>보다아트 샘플 · {html.escape(spec['label'])}<span class="no">No.{spec['no']:02d}</span></div>
 <div class="ttl">{ttl}</div>
-<div class="foot"><span class="bd">BODA ART</span><span>옆으로 넘겨 보세요 →</span></div>"""
+<div class="foot"><span class="bd">BODA ART</span><span>{html.escape(spec.get('foot', '옆으로 넘겨 보세요 →'))}</span></div>"""
 
 def inner_html(spec, photos, k, n):
     imgs = ''
