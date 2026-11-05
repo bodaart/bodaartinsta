@@ -91,6 +91,7 @@ def fx(E, dur):
     return buf
 
 EPS = {'MG1': dict(cuts=[2.4,7.2,12.0,16.8,19.2], hits=[0.08,19.2], sh=[1.2,3.35,8.1,12.95,20.2], mont=[16.8,17.4,18.0,18.6], dur=24.0)}
+EPS['MG2'] = dict(EPS['MG1'])   # 2편 USB 앨범: 장면 시간이 1편과 같아 소리도 같은 틀
 if __name__ == '__main__':
     for ep in sys.argv[1:]:
         E = EPS[ep]; d = E['dur']
