@@ -1,0 +1,3199 @@
+{
+ "hero": [
+  {
+   "title": "음반CD제작",
+   "desc": "소량제작부터 대량제작, DDP마스터링까지. 인디음반부터 OST까지 음반CD 제작의 전 과정을 보다아트가 책임집니다.",
+   "video": "",
+   "img": "/api/public/site-media/1788766519406_site_1788766519294.jpg",
+   "imgs": [],
+   "focus": {
+    "/api/public/site-media/1788759274146_site_1788759274051.jpg": "right",
+    "/api/public/site-media/1788766519406_site_1788766519294.jpg": "t:-2.2,-2"
+   },
+   "zoom": {
+    "/api/public/site-media/1788766519406_site_1788766519294.jpg": 0.6
+   },
+   "fit": "cover"
+  },
+  {
+   "title": "USB음반제작",
+   "desc": "성인가요 USB부터 각종 패키지USB까지. 음원과 영상·화보를 한 장의 USB 앨범에 담아 완성합니다.",
+   "video": "",
+   "imgs": [
+    "/api/public/site-media/1788769667665_site_1788769667785.jpg"
+   ],
+   "focus": {
+    "/api/public/site-media/1788769257835_site_1788769257955.jpg": "t:-7.5,1.4",
+    "/api/public/site-media/1788769667665_site_1788769667785.jpg": "t:-6.9,-2"
+   },
+   "zoom": {
+    "/api/public/site-media/1788769257835_site_1788769257955.jpg": 0.4,
+    "/api/public/site-media/1788769667665_site_1788769667785.jpg": 0.45
+   },
+   "fit": "cover",
+   "img": "/api/public/site-media/1788769257835_site_1788769257955.jpg"
+  },
+  {
+   "title": "병원CD제작",
+   "desc": "병원 전용 PACS CD를 주문 앱으로 간편하게. 제작부터 납품까지 한 흐름으로 이어지는 전용 시스템입니다.",
+   "video": "/media/hospvid1316.mp4",
+   "imgs": [],
+   "focus": {
+    "/api/public/site-media/1788769408047_site_1788769408029.jpg": "t:-4.8,0"
+   },
+   "zoom": {
+    "/api/public/site-media/1788769408047_site_1788769408029.jpg": 0.45
+   },
+   "img": "/api/public/site-media/1788769408047_site_1788769408029.jpg",
+   "once": 1,
+   "tone": "light",
+   "pos": "70% 62%",
+   "start": 4.9,
+   "prod": "/media/hospcd1317.webp",
+   "still": "/media/hospdesk1317.jpg"
+  },
+  {
+   "title": "모바일 음반",
+   "desc": "이젠! 나의 앨범을 스마트폰에서 듣는다!  모바일 앱에서 실행되는 친환경 스마트앨범.  음악을 들으면서 가수의 포토카드로 게임까지 즐기는 새로운 앨범!",
+   "video": "/media/bodamain0908.mp4",
+   "imgs": [],
+   "focus": {
+    "/api/public/site-media/1788769284807_site_1788769284996.jpg": "t:-23.7,1"
+   },
+   "zoom": {
+    "/api/public/site-media/1788769284807_site_1788769284996.jpg": 0.6
+   },
+   "img": "",
+   "fit": "cover"
+  },
+  {
+   "title": "패키지 제작",
+   "desc": "싸바리 패키지 / 양장 패키지 / 캘린더등 소비자가 원하는 각종 패키지를 커스텀으로 제작합니다.",
+   "video": "",
+   "imgs": [
+    "/api/public/site-media/1788769927236_site_1788769927256.jpg"
+   ],
+   "focus": {
+    "/api/public/site-media/1788769909952_site_1788769910076.jpg": "t:-6.1,-1",
+    "/api/public/site-media/1788769927236_site_1788769927256.jpg": "t:-9.1,0.3"
+   },
+   "zoom": {
+    "/api/public/site-media/1788769909952_site_1788769910076.jpg": 0.3,
+    "/api/public/site-media/1788769927236_site_1788769927256.jpg": 0.45
+   },
+   "img": "/api/public/site-media/1788769909952_site_1788769910076.jpg"
+  }
+ ],
+ "sections": {
+  "music": {
+   "title": "음반CD제작",
+   "desc": "소량제작부터 대량제작, DDP마스터링까지.\n음반CD 제작의 전 과정을 보다아트가 책임집니다.",
+   "video": "",
+   "badge": ""
+  },
+  "hospital": {
+   "title": "",
+   "desc": "PACS CD 전문 제작. 제작방법 안내부터 주문, 제작 현황 확인까지 — BODA PACS 주문 앱에서 한 번에 해결하세요.",
+   "video": "",
+   "badge": ""
+  },
+  "bodacode": {
+   "title": "보다뮤직 모바일음반",
+   "desc": "카드 한 장이 앨범이 되는 친환경 스마트앨범.\n제작부터 발행까지 보다아트가 함께합니다.",
+   "video": "",
+   "badge": ""
+  },
+  "package": {
+   "title": "패키지 제작",
+   "desc": "인쇄 패키지 전문.\n케이스와 인쇄물 디자인까지 한 곳에서 완성합니다.",
+   "video": "",
+   "badge": ""
+  },
+  "usbmusic": {
+   "title": "USB음반제작",
+   "desc": "보다아트는 성인가요(트로트) USB를 전문으로 제작해 왔습니다.\nUSB 음반의 구성과 패키지를 한 곳에서 완성합니다."
+  }
+ },
+ "product_imgs": {
+  "cd-make": "/api/public/site-media/1787297594286_site_1787297596391.jpg",
+  "usb-make": "/api/public/site-media/1787297448136_site_1787297450308.jpg",
+  "ddp-master": "img/prod-ddp.jpg",
+  "pkg-cd": "/api/public/site-media/1787305720294_site_1787305722515.jpg",
+  "pkg-usb": "/api/public/site-media/1787305799525_site_1787305801590.jpg",
+  "pkg-code": "img/prod-pkg-code.jpg",
+  "pkg-ssabari": "/api/public/site-media/1787305887818_site_1787305890106.jpg"
+ },
+ "portfolio": [
+  {
+   "img": "/api/public/site-media/1789633264644_6e935ebc39126.jpg",
+   "cat": "usb",
+   "title": "서랍형 카드USB 종이케이스",
+   "sub": "Music · USB",
+   "desc": "여러가지 종이 재질로 생산 가능하며, 풀컬러 인쇄가 가능합니다.",
+   "imgs": [
+    "/api/public/site-media/1789633264390_1e8584dc05ec2.jpg",
+    "/api/public/site-media/1789633264258_7fd135da56f37.jpg",
+    "/api/public/site-media/1789633264524_f9a8785f8ff96.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789633165843_a2c41246b2b22.jpg",
+   "cat": "usb",
+   "title": "매대형 스틱USB케이스",
+   "sub": "Music · USB",
+   "desc": "USB세로형으로 트로트음반, \n성인가요음반에서 가장 많이 사용되는 케이스입니다.\n단면 또는 양면 인쇄물을 삽지 가능하며,\n4페이지 인쇄물까지 삽지 가능합니다.",
+   "imgs": [
+    "/api/public/site-media/1789633165939_27e48cb00a361.jpg",
+    "/api/public/site-media/1789633166028_2c5ac3a968702.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789633084045_64940e690b89e.jpg",
+   "cat": "usb",
+   "title": "기성 자석싸바리 상자",
+   "sub": "Music · USB",
+   "desc": "교회용 CCM USB음반 패키지입니다.\n자석식 싸바리 박스에 1도 인쇄하여 제작됩니다.\n스틱형 USB을 고급스럽게 담아낼 수 있습니다.",
+   "imgs": [
+    "/api/public/site-media/1789633084278_60f1da80c61b5.jpg",
+    "/api/public/site-media/1789633084546_42c8914c419ac.jpg",
+    "/api/public/site-media/1789633084413_c1deaa370113c.jpg",
+    "/api/public/site-media/1789633084144_d24b2b6fa648a.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632993067_361daa6e3ef27.jpg",
+   "cat": "usb",
+   "title": "소형2단 USB스펀지 디지팩",
+   "sub": "Music · USB",
+   "desc": "소형2단 디지팩에 USB스펀지를 부착했습니다.\n표지 안쪽은 32페이지 책자를 부착하였습니다.\n아웃케이스로 마감.",
+   "imgs": [
+    "/api/public/site-media/1789632992548_96433f79f6ddb.jpg",
+    "/api/public/site-media/1789632992779_e1f63b1b90311.jpg",
+    "/api/public/site-media/1789632992936_93da25d922768.jpg",
+    "/api/public/site-media/1789632992646_e9ade581a01e2.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632926615_b2faf1924f82f.jpg",
+   "cat": "usb",
+   "title": "대한무역투자진흥공사 KOTRA의 크리스마스 기념 USB음반",
+   "sub": "Music · USB",
+   "desc": "대형2단 디지팩에 USB스펀지를 사용하여 하단에만 느낌을 주었습니다.\nUSB 3.0 OTG 칩을 사용하여, PC와 USB에서 동시에 음원을 즐길 수 있습니다.",
+   "imgs": [
+    "/api/public/site-media/1789632926330_d3f54c3c7b5d2.jpg",
+    "/api/public/site-media/1789632926515_5e5d4d8212177.jpg",
+    "/api/public/site-media/1789632926419_2d2825f25498b.jpg",
+    "/api/public/site-media/1789632926130_d022c4a2097a9.jpg",
+    "/api/public/site-media/1789632926230_d56d386ff7209.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632771003_9a12a1cc2ef78.jpg",
+   "cat": "usb",
+   "title": "4단 종이케이스와USB",
+   "sub": "Music · USB",
+   "desc": "크리스마스 연하장으로 제작되었습니다.\n패키지의 완성 목표는 얆은 USB 칩을 삽입하여 최대한 얆은 케이스를 제작하는데 있었습니다.",
+   "imgs": [
+    "/api/public/site-media/1789632770774_ade28a9e81145.jpg",
+    "/api/public/site-media/1789632770874_95a1ba512278c.jpg",
+    "/api/public/site-media/1789632770435_4ca1be366e242.jpg",
+    "/api/public/site-media/1789632770536_eaee260976f82.jpg",
+    "/api/public/site-media/1789632770672_a04f6ed856d4a.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632689720_db06bdba64a1c.jpg",
+   "cat": "usb",
+   "title": "토로트 대 가수 송대관 선생님의 카드USB",
+   "sub": "Music · USB",
+   "desc": "카드형USB 사출을 기반으로 기존의 문제점을 보안한 음반입니다.\n기존의 카드형USB의 문제점이 차량에서 실행 시 \n차량 내부의 USB포트 위치에 따라 카드형USB를 연결하는데 어려움이 있었습니다.\n이번 송대관 선생님의 음반은 슬라이드형을 사용하여\nUSB 몸통에서 침을 분리하여 사용할 수 있기 때문에 실행의 간섭을 100% 해결하였으며.\n어떠한 종류의 차량에서도 실행이 가능합니다.",
+   "imgs": [
+    "/api/public/site-media/1789632689473_aed86c422d3d6.jpg",
+    "/api/public/site-media/1789632689655_aebb5637c15e7.jpg",
+    "/api/public/site-media/1789632689289_80ddc822c49a6.jpg",
+    "/api/public/site-media/1789632689378_aa2ede4e646e9.jpg",
+    "/api/public/site-media/1789632689575_929b544db6461.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632631715_cad6f87748a3c.jpg",
+   "cat": "usb",
+   "title": "샌드박스의 카드형USB와 플라스틱 카드전용 케이스",
+   "sub": "Music · USB",
+   "desc": "카드형USB를 가장 효과적이고, 저렴하게 담아낼 수 있습니다.\n케이스 안쪽에 북렛(자켓)을 제작하여 넣을 수 있으며, 32P까지 가능합니다.",
+   "imgs": [
+    "/api/public/site-media/1789632631386_179a5f40907d0.jpg",
+    "/api/public/site-media/1789632631579_5367afe5f17ce.jpg",
+    "/api/public/site-media/1789632630998_83e9fc6c09b0e.jpg",
+    "/api/public/site-media/1789632631189_63c6201e7ee1f.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632577610_18ebc2873784f.jpg",
+   "cat": "usb",
+   "title": "2단 형식의 디지팩으로 카드USB",
+   "sub": "Music · USB",
+   "desc": "카드USB를 넣을 수 있는 전용 트레이로, EVA(스펀지)제작 비용보다 저렴하게 패키지를 제작할 수 있습니다.",
+   "imgs": [
+    "/api/public/site-media/1789632577211_10ad918560a0a.jpg",
+    "/api/public/site-media/1789632577476_ab4c3899905c0.jpg",
+    "/api/public/site-media/1789632577344_c23b8b1c98992.jpg",
+    "/api/public/site-media/1789632576830_d6419d270a532.jpg",
+    "/api/public/site-media/1789632576925_0a0d5467b6a20.jpg",
+    "/api/public/site-media/1789632577081_218eedf43771c.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632477780_7bd8ad6992625.jpg",
+   "cat": "usb",
+   "title": "포천시립합창단의 대형2단 싸바리 카드USB케이스",
+   "sub": "Music · USB",
+   "desc": "가로14cm 세로19cm 두께1cm\n표지바리형으로 일반 합지형 디지팩보다 단단하며, 마감이 고급스럽습니다.\n카드USB 부착면에는 EVA를 가공하여 카드USB가 정확하고 안정적으로 꽂아질 수 있도록 하였습니다.\n싸지는 스노우120g, 무광코팅\n내부에 책자는 16p 랑데뷰 130g을 사용.",
+   "imgs": [
+    "/api/public/site-media/1789632477382_8cc72d693868e.jpg",
+    "/api/public/site-media/1789632477646_bd4c5dd2d8259.jpg",
+    "/api/public/site-media/1789632477512_b8c7ac31c213e.jpg",
+    "/api/public/site-media/1789632477112_d450cc86252d6.jpg",
+    "/api/public/site-media/1789632477251_8282ec081c19d.jpg",
+    "/api/public/site-media/1789632476615_1c991be733275.jpg",
+    "/api/public/site-media/1789632476851_bd6bfc8a4b1d6.jpg",
+    "/api/public/site-media/1789632476979_1b8aaa641b90b.jpg",
+    "/api/public/site-media/1789632476481_c0b830cc00f88.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632390467_14c7c04f1d2dd.jpg",
+   "cat": "usb",
+   "title": "가수 이찬원USB \"찬스타임\" 콘서트실황 영상USB패키지",
+   "sub": "Music · USB",
+   "desc": "180X180사이즈이며, 싸바리 방식으로 패키지를 제작했습니다.\n안쪽 USB트레이는 고급 EVA로 마감하여, USB를 안전하게 보관할 수 있도록 했습니다.\n약80페이지 이상의 포토북이 함께 들어갑니다.",
+   "imgs": [
+    "/api/public/site-media/1789632390293_4cd849ab7268c.jpg",
+    "/api/public/site-media/1789632390379_3768c3395de61.jpg",
+    "/api/public/site-media/1789632389883_938b81adf88ce.jpg",
+    "/api/public/site-media/1789632389946_7c1a087ddaef4.jpg",
+    "/api/public/site-media/1789632389999_3064e0a1d6532.jpg",
+    "/api/public/site-media/1789632389800_7bf5c6cbbb26e.jpg",
+    "/api/public/site-media/1789632390064_d4f8042cf1ccf.jpg",
+    "/api/public/site-media/1789632390182_b0c1e83a1eb31.jpg"
+   ],
+   "featured": 1,
+   "fo": 8
+  },
+  {
+   "img": "/api/public/site-media/1789632308219_7d067d524edf9.jpg",
+   "cat": "usb",
+   "title": "지방선거용 USB와 패키지",
+   "sub": "Music · USB",
+   "desc": "시각, 청각장애인의 위한 디지털전환매체USB로\n점자 디지털변환부터 패키지상자, 점자스티커부착까지 모든 제작을 보다아트가 처리했습니다.",
+   "imgs": [
+    "/api/public/site-media/1789632307461_d3effaa851953.jpg",
+    "/api/public/site-media/1789632308118_9aff7708f124f.jpg",
+    "/api/public/site-media/1789632308017_92ece0e762a66.jpg",
+    "/api/public/site-media/1789632307668_ccfc21a14912f.jpg",
+    "/api/public/site-media/1789632307818_9f48cf3728740.jpg",
+    "/api/public/site-media/1789632307954_e5bb1efd86258.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632111062_71d3163f0f94c.jpg",
+   "cat": "hospital",
+   "title": "4단 DM 종이 케이스",
+   "sub": "Hospital · CD",
+   "desc": "병원 품격을 높여주며, 두꺼운 종이를 가공하여 제작되었기 때문에 케이스의 파손이 없습니다.",
+   "imgs": [
+    "/api/public/site-media/1789632110966_06338d58f8d58.jpg",
+    "/api/public/site-media/1789632110836_240b00c42789b.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789632001518_e6cd289b399cf.jpg",
+   "cat": "hospital",
+   "title": "주얼케이스형",
+   "sub": "Hospital · CD",
+   "desc": "2+1P 인쇄물",
+   "imgs": [
+    "/api/public/site-media/1789632001119_69f6dd202b032.jpg",
+    "/api/public/site-media/1789632001385_8558703edf005.jpg",
+    "/api/public/site-media/1789632000983_827ba15e4bb36.jpg",
+    "/api/public/site-media/1789632001251_00f5b09d3e486.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631941364_dd6047bd76daf.jpg",
+   "cat": "hospital",
+   "title": "슬림케이스형",
+   "sub": "Hospital · CD",
+   "desc": "2P 양면 인쇄물",
+   "imgs": [
+    "/api/public/site-media/1789631941189_e5a6d6c2edf68.jpg",
+    "/api/public/site-media/1789631940921_daae114d4146d.jpg",
+    "/api/public/site-media/1789631941057_5e3c529fb33f2.jpg",
+    "/api/public/site-media/1789631940783_60161cdf34237.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631886809_e58a150c57093.jpg",
+   "cat": "hospital",
+   "title": "3단 종이케이스",
+   "sub": "Hospital · CD",
+   "desc": "4단 종이케이스보다 가격이 저렴하며, 병원의 홍보 가능한 인쇄면적이 3면입니다.",
+   "imgs": [
+    "/api/public/site-media/1789631886669_eb663f9db8c2a.jpg",
+    "/api/public/site-media/1789631886375_adf0b11c50c2c.jpg",
+    "/api/public/site-media/1789631886570_3c169c7cdcf73.jpg",
+    "/api/public/site-media/1789631886472_383603bbdcaa7.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631754907_7278716016372__1_.jpg",
+   "cat": "hospital",
+   "title": "병원용 대형2단 종이케이스",
+   "sub": "Hospital · CD",
+   "desc": "기존의 병원용 종이 2단/ 4단 케이스보다 볼륨있고, 사이즈가 큽니다.\n병원의 마케팅 측면에서 인쇄 면적이 많아서 좋습니다.",
+   "imgs": [
+    "/api/public/site-media/1789631754720_87c18e1681b06__1_.jpg",
+    "/api/public/site-media/1789631754820_352f5354ee7da__1_.jpg",
+    "/api/public/site-media/1789631754619_3afd8e8071581.jpg",
+    "/api/public/site-media/1789631754533_43c77bd7132de.jpg",
+    "/api/public/site-media/1789631754446_793fa459644f7.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631685853_88dc168d85741.jpg",
+   "cat": "hospital",
+   "title": "병원용 편지봉투형 CD케이스",
+   "sub": "Hospital · CD",
+   "desc": "양면인쇄로 바깥쪽과 안쪽에서 병원의 이미지를 표현할 수 있습니다.\n최신 제품이며, 고급스럽습니다.",
+   "imgs": [
+    "/api/public/site-media/1789631685288_8a551e828ab52.jpg",
+    "/api/public/site-media/1789631685410_00b657a478beb.jpg",
+    "/api/public/site-media/1789631685353_a60c71e433670.jpg",
+    "/api/public/site-media/1789631685469_d5469881850fd.jpg",
+    "/api/public/site-media/1789631685574_a0ad060c3ef15.jpg",
+    "/api/public/site-media/1789631685672_12e6d22e32591.jpg",
+    "/api/public/site-media/1789631685737_f11ad771928ce.jpg",
+    "/api/public/site-media/1789631685792_48fca679d3dca.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631168774_a6f8f50cfe7e5.jpg",
+   "cat": "cd",
+   "title": "가수 김희재 책자형 음반",
+   "sub": "Music · CD",
+   "desc": "스패셜반(책자형)으로 제작되었습니다.\n스패셜형 220x260 포토북\n(표지안쪽 굿즈포켓, 뒷면 안쪽 CD포켓)",
+   "imgs": [
+    "/api/public/site-media/1789631168719_e53dd0deabd3a.jpg",
+    "/api/public/site-media/1789631168656_09913ca8e7335.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631089641_0dbbdb111ab54.jpg",
+   "cat": "cd",
+   "title": "가수 김희재 CD음반",
+   "sub": "Music · CD",
+   "desc": "기본형 주얼케이스형 2종으로 제작되었습니다.\n주얼형 앞면 책자 16p",
+   "imgs": [
+    "/api/public/site-media/1789631089166_9953486f280ab.jpg",
+    "/api/public/site-media/1789631089545_3084e3ed83a8c.jpg",
+    "/api/public/site-media/1789631089356_2155995573b9e.jpg",
+    "/api/public/site-media/1789631089256_909591c428a5a.jpg",
+    "/api/public/site-media/1789631089456_2251504fa3ce1.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789630897394_3a044fdfdbabb.jpg",
+   "cat": "package",
+   "title": "가수 김경호 30주념 기념 앨범",
+   "sub": "Package · Print",
+   "desc": "대한민국 최고의 락 가수 김경호님의 30주년 기념 앨범을 제작했습니다.\n\n자석 싸바리 패키지로 제작했으며, 크기는 180X250X30입니다.\n오른쪽 세네카 부분에 자석을 넣어 또깍 또깍 열렸다 닫히게 만들었어요.\n표지는 강렬한 레드로 별색인쇄 때려줬고, 검정색 부분은 유광 먹박으로 쾅!\n안쪽에는 화보집과 브로마이드, CD와 포토카드등의 굿즈를 담았습니다.\nCD트레이는 4면 각을 새워서 높이를 줬기 때문에 내부의 제품들과 상자의 가장 윗부분의 단차는 최소화 시켰습니다.",
+   "imgs": [
+    "/api/public/site-media/1789630897210_8e5fda6299d11.jpg",
+    "/api/public/site-media/1789630897303_6c45ac870a71e.jpg",
+    "/api/public/site-media/1789630896927_b9c8bd8e6dc14.jpg",
+    "/api/public/site-media/1789630897024_314c89dfb1fcc.jpg",
+    "/api/public/site-media/1789630897118_7fe7601320451.jpg",
+    "/api/public/site-media/1789630896258_bc476792688c4.jpg",
+    "/api/public/site-media/1789630896675_66ec872e722df.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789630791066_e85e91931d589.jpg",
+   "cat": "package",
+   "title": "가수 이찬원 ONE 패키지",
+   "sub": "Package · Print",
+   "desc": "가수 이찬원의 스패셜 USB 싸바리 패키지\n제품 사이즈 가로 350mm 세로 160 두께 30m으로 큰 크기로 제작된 양장 싸바리 패키지입니다.\n안쪽에는 USB와 책자, 브로마이드, 포토카드, 스티커, 3D렌티큘러 엽서, 책갈피등 여러가지 굿즈가 하나의 패키지에 들어가 있는 스페셜 패키지입니다.\n패키지의 모든 기획과 제작은 저희 보다아트에서 진행했습니다.",
+   "imgs": [
+    "/api/public/site-media/1789630791014_5e214d36e4630.jpg",
+    "/api/public/site-media/1789630790849_6f47c4824d85e.jpg",
+    "/api/public/site-media/1789630790951_0234f3d52ffb8.jpg",
+    "/api/public/site-media/1789630790622_55cc608bc0e60.jpg",
+    "/api/public/site-media/1789630790751_20f9d1c176b4c.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787549817779_site_1787549817844.jpg",
+   "cat": "code",
+   "title": "가수 김희재 모바일 앨범",
+   "sub": "모바일 음반",
+   "featured": 1,
+   "desc": "가수 김희재님의 모바일 실물 앨범.\n카드와 포토카드, 엽서등으로 구성된 앨범입니다.",
+   "imgs": [
+    "/api/public/site-media/1787549934845_site_1787549934599.jpg",
+    "/api/public/site-media/1787549945754_site_1787549945440.jpg",
+    "/api/public/site-media/1787549954659_site_1787549954482.jpg"
+   ],
+   "fo": 1
+  },
+  {
+   "img": "/api/public/site-media/1787550004629_site_1787550004350.jpg",
+   "cat": "cd",
+   "title": "가수 송민준 CD앨범",
+   "sub": "Music · CD",
+   "featured": 1,
+   "desc": "가수 송민중님의 CD앨범입니다.\n대형 4단 종이케이스를 응용하여 포켓형으로 구조를 변경하고 제작했습니다.",
+   "imgs": [
+    "/api/public/site-media/1787550040667_site_1787550040491.jpg",
+    "/api/public/site-media/1787550051650_site_1787550051544.jpg",
+    "/api/public/site-media/1787550058889_site_1787550058681.jpg"
+   ],
+   "fo": 2
+  },
+  {
+   "img": "/api/public/site-media/1789629565588_f8e5b13e3e9dd.jpg",
+   "cat": "cd",
+   "title": "가수 조명섭님 2집 앨범",
+   "sub": "Music · CD",
+   "desc": "가로 165mm 세로 225mm 두께 12mm\n겉지 스노우 150 / 면지 동일\n표지부분 무광 금박\n자켓 표지 랑데뷰210g / 내지 랑데뷰 130g 20P 무선재본\nCD트레이 1600보드 / 스펀지 코어\nCD와 스펀지만 때어내면 100% 재활용 가능.\n디자인: 리제그래픽 http://lize.modoo.at\n판매처 : https://www.2proent.com/",
+   "imgs": [
+    "/api/public/site-media/1789629565258_5245c07009aab.jpg",
+    "/api/public/site-media/1789629565522_7b51c41b9ab06.jpg",
+    "/api/public/site-media/1789629565459_51efab7f8a128.jpg",
+    "/api/public/site-media/1789629565358_2a5e40fcc4d8f.jpg",
+    "/api/public/site-media/1789629565098_ebd148ed0c676.jpg",
+    "/api/public/site-media/1789629565194_97b0eecfdc439.jpg",
+    "/api/public/site-media/1789629565035_492f5d9b00130.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787550139789_site_1787550139685.jpg",
+   "cat": "code",
+   "title": "가수 박지현 모바일앨범",
+   "sub": "모바일 음반",
+   "desc": "가수 박지현님의 모바일 음반입니다.\n대형 4단 종이케이스를 응용하여 포토카드가 들어가도록 변형하였습니다.",
+   "imgs": [
+    "/api/public/site-media/1787550224917_site_1787550224879.jpg",
+    "/api/public/site-media/1787550231072_site_1787550231001.jpg",
+    "/api/public/site-media/1787550243236_site_1787550243127.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787550314050_site_1787550314049.jpg",
+   "cat": "usb",
+   "title": "가수 혜은이 CD앨범",
+   "sub": "Music · USB",
+   "desc": "가수 혜은이 선생님의 USB앨범입니다.\n2단 소형 디지팩으로 제작하였으며, 스틱USB를 사용했습니다.",
+   "imgs": [
+    "/api/public/site-media/1787550437355_site_1787550437318.jpg",
+    "/api/public/site-media/1787550450167_site_1787550450131.jpg",
+    "/api/public/site-media/1787550463021_site_1787550462949.jpg"
+   ],
+   "featured": 1,
+   "fo": 9
+  },
+  {
+   "img": "/api/public/site-media/1787550722976_site_1787550722841.jpg",
+   "cat": "usb",
+   "title": "가수 박창근 USB앨범",
+   "sub": "Music · USB",
+   "featured": 1,
+   "desc": "가수 박창근님의 USB앨범으로 책식으로 제작하였고, 뒷면에 USB를 담을 수 있는 포켓을 제작하였습니다.",
+   "imgs": [
+    "/api/public/site-media/1787550657826_site_1787550657759.jpg",
+    "/api/public/site-media/1787550684216_site_1787550683845.jpg",
+    "/api/public/site-media/1787550694092_site_1787550693977.jpg"
+   ],
+   "fo": 3
+  },
+  {
+   "img": "/api/public/site-media/1787550774094_site_1787550774165.jpg",
+   "cat": "cd",
+   "title": "가수 박창근 CD앨범",
+   "sub": "Music · CD",
+   "desc": "가수 박창근님의 CD앨범으로 책식으로 제작되었습니다.\nUSB버젼과 CD버젼으로 각각 제작되었습니다.",
+   "imgs": [
+    "/api/public/site-media/1787550845705_site_1787550845698.jpg",
+    "/api/public/site-media/1787550854573_site_1787550854528.jpg",
+    "/api/public/site-media/1787550869059_site_1787550869017.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787550942259_site_1787550942256.jpg",
+   "cat": "cd",
+   "title": "가수 박지현 CD앨범",
+   "sub": "Music · CD",
+   "featured": 1,
+   "desc": "가수 박지현님의 CD앨범입니다. 친환경 종이케이스로 1%의 플라스틱도 들어가지 않은 순수 종이로만 제작된 케이스입니다.",
+   "imgs": [
+    "/api/public/site-media/1787551016088_site_1787551016058.jpg",
+    "/api/public/site-media/1787551027273_site_1787551027209.jpg",
+    "/api/public/site-media/1787551071671_site_1787551071573.jpg"
+   ],
+   "fo": 4
+  },
+  {
+   "img": "/api/public/site-media/1787551107257_site_1787551107226.jpg",
+   "cat": "code",
+   "title": "가수 인순이 모바일앨범",
+   "sub": "모바일 음반",
+   "desc": "가수 인순이님의 모바일앨범으로 군번줄에 NFC칩을 삽입하여 모바일과 태깅하여 연동되는 방식으로 제작되었습니다.\n인식표, 군번줄등 다양한 굿즈를 담았습니다. ",
+   "imgs": [
+    "/api/public/site-media/1787551253418_site_1787551253526.jpg",
+    "/api/public/site-media/1787551273005_site_1787551273011.jpg",
+    "/api/public/site-media/1787551287168_site_1787551286967.jpg",
+    "/api/public/site-media/1787551305124_site_1787551305023.jpg",
+    "/api/public/site-media/1787551317476_site_1787551317444.jpg",
+    "/api/public/site-media/1787551333395_site_1787551333365.jpg"
+   ],
+   "featured": 1,
+   "fo": 10
+  },
+  {
+   "img": "/api/public/site-media/1787552112498_site_1787552112472.jpg",
+   "cat": "hospital",
+   "title": "2단 종이케이스형",
+   "sub": "Hospital · PACS",
+   "desc": "2단 종이케이스형 병원CD패키지입니다.",
+   "imgs": [
+    "/api/public/site-media/1787552163040_site_1787552163015.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787552195291_site_1787552195405.jpg",
+   "cat": "hospital",
+   "title": "슬림DVD케이스",
+   "sub": "Hospital · PACS",
+   "desc": "슬림DVD케이스형 패키지입니다.",
+   "imgs": [
+    "/api/public/site-media/1787552231155_site_1787552231130.jpg",
+    "/api/public/site-media/1787552237500_site_1787552237510.jpg",
+    "/api/public/site-media/1787552253513_site_1787552253525.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787553336199_site_1787553336207.jpg",
+   "cat": "hospital",
+   "title": "3단 양면 종이케이스",
+   "sub": "Hospital · PACS",
+   "imgs": [
+    "/api/public/site-media/1787553391973_site_1787553392090.jpg",
+    "/api/public/site-media/1787553392068_site_1787553392184.jpg",
+    "/api/public/site-media/1787553392165_site_1787553392281.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787553475440_site_1787553475522.jpg",
+   "cat": "package",
+   "title": "가수 박지현 CD/USB 싸바리 패키지",
+   "sub": "",
+   "featured": 1,
+   "desc": "자석 싸바리 패키지입니다. CD와 USB를 함께 넣을 수 있으며 각종 책자와 굿즈를 여유있게 담을 수 있습니다.",
+   "imgs": [
+    "/api/public/site-media/1787553633885_site_1787553633843.jpg",
+    "/api/public/site-media/1787553633966_site_1787553634087.jpg",
+    "/api/public/site-media/1787553633253_site_1787553633179.jpg",
+    "/api/public/site-media/1787553633617_site_1787553633477.jpg",
+    "/api/public/site-media/1787553634060_site_1787553634172.jpg"
+   ],
+   "fo": 5
+  },
+  {
+   "img": "/api/public/site-media/1787553696761_site_1787553696698.jpg",
+   "cat": "package",
+   "title": "싸바리 CD케이스",
+   "sub": "PRINT PACKAGE",
+   "featured": 1,
+   "desc": "표지바리 형식으로 제작된 소형CD케이스입니다.",
+   "imgs": [
+    "/api/public/site-media/1787553776883_site_1787553777001.jpg",
+    "/api/public/site-media/1787553776785_site_1787553776866.jpg",
+    "/api/public/site-media/1787553777066_site_1787553777185.jpg"
+   ],
+   "fo": 6
+  },
+  {
+   "img": "/api/public/site-media/1787554729012_site_1787554728758.jpg",
+   "cat": "package",
+   "title": "가수 이찬원 싸바리 패키지",
+   "sub": "PRINT PACKAGE",
+   "desc": "양문형 자석 싸바리 패키지입니다.\nCD와USB가 들어가며 각종 책자와 굿즈를 담을 수 있습니다.",
+   "imgs": [
+    "/api/public/site-media/1787554864155_site_1787554864105.jpg",
+    "/api/public/site-media/1787554864466_site_1787554864382.jpg",
+    "/api/public/site-media/1787554864566_site_1787554864692.jpg",
+    "/api/public/site-media/1787554864657_site_1787554864784.jpg",
+    "/api/public/site-media/1787554864759_site_1787554864886.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787554896071_site_1787554896050.jpg",
+   "cat": "usb",
+   "title": "가수 UV 매대형 USB앨범",
+   "sub": "Music · USB",
+   "featured": 1,
+   "desc": "가수 UV의 매대형 USB앨범입니다.\n매대에 걸어놓고 판매하는 형식으로 블리스터 케이스를 열면 자젯과 USB가 분리되는 형식입니다.\n가정 저렴한 형식의 패키지입니다.",
+   "imgs": [
+    "/api/public/site-media/1787555040066_site_1787555040192.jpg",
+    "/api/public/site-media/1787555039873_site_1787555039962.jpg",
+    "/api/public/site-media/1787555039973_site_1787555040098.jpg"
+   ],
+   "fo": 7
+  },
+  {
+   "img": "/api/public/site-media/1787555111639_site_1787555111762.jpg",
+   "cat": "package",
+   "title": "가수 송민준 싸바리 패키지",
+   "sub": "Print · Ssabari",
+   "desc": "자석 싸바리 패키지입니다.\nCD판을 들어올려 견착시키면 세워지는 형식입니다.\n캘린더를 만드는 방식과 비슷하게 제작되었습니다.",
+   "imgs": [
+    "/api/public/site-media/1787555225632_site_1787555225756.jpg",
+    "/api/public/site-media/1787555225881_site_1787555226006.jpg",
+    "/api/public/site-media/1787555226142_site_1787555226267.jpg",
+    "/api/public/site-media/1787555226510_site_1787555226635.jpg",
+    "/api/public/site-media/1787555226785_site_1787555226910.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787555309970_site_1787555309878.jpg",
+   "cat": "cd",
+   "title": "가수 이찬원 CD앨범",
+   "sub": "MOBILE ALBUM",
+   "desc": "가수 이찬원님의 친환경 CD앨범입니다.\nE골로 제작하였습니다.",
+   "imgs": [
+    "/api/public/site-media/1787555381219_site_1787555381175.jpg",
+    "/api/public/site-media/1787555381497_site_1787555381454.jpg",
+    "/api/public/site-media/1787555381806_site_1787555381726.jpg",
+    "/api/public/site-media/1787555382182_site_1787555382036.jpg",
+    "/api/public/site-media/1787555382631_site_1787555382450.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1789631357233_e5469236ad49c.jpg",
+   "cat": "cd",
+   "title": "4CD 멀티 케이스",
+   "sub": "Music · CD",
+   "desc": "4P 멀티 케이스를 응용한 패키지 구성.\n4P멀티케이스 전면 자켓 (PET UV인쇄, 은박인쇄)\n2단 종이봉투 제작 + 포토카드2종/도무송 스티커1종\n브로마이드",
+   "imgs": [
+    "/api/public/site-media/1789631357099_9a50974a7a56e.jpg",
+    "/api/public/site-media/1789631356607_493967916b3e4.jpg",
+    "/api/public/site-media/1789631356733_81a8bb8434a4e.jpg",
+    "/api/public/site-media/1789631356999_672dc1f17a11e.jpg",
+    "/api/public/site-media/1789631356866_cff87438fae91.jpg",
+    "/api/public/site-media/1789631356479_e6a8c60787c2a.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787555480337_site_1787555480212.jpg",
+   "cat": "code",
+   "title": "키링형 모바일앨범",
+   "sub": "MOBILE ALBUM",
+   "desc": "키링에 NFC칩을 삽입하여 제작한 모바일 앨범입니다.\n패키지에는 모바일앨범 사용설명서와 포토카드등이 들어갑니다.",
+   "imgs": [
+    "/api/public/site-media/1787555497440_site_1787555497423.jpg",
+    "/api/public/site-media/1787555497723_site_1787555497670.jpg",
+    "/api/public/site-media/1787555497964_site_1787555497947.jpg",
+    "/api/public/site-media/1787555498243_site_1787555498189.jpg",
+    "/api/public/site-media/1787555498559_site_1787555498469.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787555750567_site_1787555750587.jpg",
+   "cat": "usb",
+   "title": "카드USB 블리스터케이스",
+   "sub": "Music · USB",
+   "desc": "카드USB 블리스터형 패키지입니다.\n카드USB 전용 케이스로 사용이 간편합니다.",
+   "imgs": [
+    "/api/public/site-media/1787555855089_site_1787555854963.jpg",
+    "/api/public/site-media/1787555855331_site_1787555855315.jpg",
+    "/api/public/site-media/1787555855504_site_1787555855562.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787555908842_site_1787555908680.jpg",
+   "cat": "package",
+   "title": "가수 김희재 싸바리 패키지",
+   "sub": "Print · Ssabari",
+   "desc": "가수 김재희님의 스패셜 싸바리 패키지입니다.\n가로 300X300의 엄청난 크기로 LP판이 들어가는 구조로 디자인되었습니다.",
+   "imgs": [
+    "/api/public/site-media/1787556720745_site_1787556720888.jpg",
+    "/api/public/site-media/1787556719961_site_1787556720065.jpg",
+    "/api/public/site-media/1787556720078_site_1787556720220.jpg",
+    "/api/public/site-media/1787556720642_site_1787556720785.jpg",
+    "/api/public/site-media/1787556720850_site_1787556720992.jpg",
+    "/api/public/site-media/1787556720202_site_1787556720344.jpg",
+    "/api/public/site-media/1787556720325_site_1787556720466.jpg",
+    "/api/public/site-media/1787556720433_site_1787556720574.jpg",
+    "/api/public/site-media/1787556720538_site_1787556720679.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787556882138_site_1787556882079.jpg",
+   "cat": "code",
+   "title": "카드형 모바일 패키지",
+   "sub": "MOBILE ALBUM",
+   "desc": "보다코드 카드와 각종 포토카드와 자켓만을 구성한 패키지입니다.",
+   "imgs": [
+    "/api/public/site-media/1787556977398_site_1787556977237.jpg",
+    "/api/public/site-media/1787556978033_site_1787556978181.jpg",
+    "/api/public/site-media/1787556977693_site_1787556977668.jpg",
+    "/api/public/site-media/1787556977806_site_1787556977953.jpg",
+    "/api/public/site-media/1787556977925_site_1787556978072.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787557810476_site_1787557810462.jpg",
+   "cat": "cd",
+   "title": "미스트롯 양지은 소형2단 디지팩",
+   "sub": "Music · CD",
+   "desc": "미스트롯 양지은님의 소형2단디지팩입니다.",
+   "imgs": [
+    "/api/public/site-media/1787557895269_site_1787557895219.jpg",
+    "/api/public/site-media/1787557894951_site_1787557894904.jpg",
+    "/api/public/site-media/1787557894631_site_1787557894617.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/1787557959843_site_1787557959831.jpg",
+   "cat": "cd",
+   "title": "미스트롯 윤희 대형2단 디지팩",
+   "sub": "Music · CD",
+   "desc": "미스트롯 윤희님의 대형2단 디지팩입니다.",
+   "imgs": [
+    "/api/public/site-media/1787558014651_site_1787558014570.jpg",
+    "/api/public/site-media/1787558014929_site_1787558014918.jpg",
+    "/api/public/site-media/1787558015637_site_1787558015557.jpg",
+    "/api/public/site-media/1787558015294_site_1787558015215.jpg"
+   ]
+  },
+  {
+   "img": "",
+   "cat": "hospital",
+   "title": "2단 종이케이스",
+   "sub": "Hospital · PACS",
+   "featured": 0,
+   "desc": "2단 종이케이스 형태의 병원용 CD입니다.",
+   "imgs": [
+    "/api/public/site-media/1791274994599_site_1791274994753.jpg",
+    "/api/public/site-media/1791274994910_site_1791274995064.jpg",
+    "/api/public/site-media/1791274994492_site_1791274994646.jpg",
+    "/api/public/site-media/1791274994681_site_1791274994870.jpg",
+    "/api/public/site-media/1791274994793_site_1791274994946.jpg"
+   ]
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_170726579_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_170726579_02.jpg",
+    "/api/public/site-media/imweb1488_170726579_03.jpg",
+    "/api/public/site-media/imweb1488_170726579_04.jpg",
+    "/api/public/site-media/imweb1488_170726579_05.jpg",
+    "/api/public/site-media/imweb1488_170726579_06.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 박지현 정규1집",
+   "sub": "Music · CD",
+   "desc": "가수 박지현님의 정규 1집앨범\n환경을 생각하는 박지현 가수의 정규 1집 앨범으로 친환경 종이로 제작한 보다코드 앨범입니다.\n2단 형식으로 제작되었으며, 케이스를 열면 좌측에는 포토카드등 각종 굿즈가 삽입되고, 오른쪽에는 보다코드 카드가 들어갑니다.\n보다코드 카드는 플랫폼음반으로 휴대폰으로 보다코드를 읽으면 음원과 사진, 영상을 감상 할 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_170726790_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_170726790_02.jpg",
+    "/api/public/site-media/imweb1488_170726790_03.jpg",
+    "/api/public/site-media/imweb1488_170726790_04.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 박지현 3D LP스타일 앨범",
+   "sub": "Music · CD",
+   "desc": "가로, 세로 28cm의 LP슬리브로 기획한 박지현님의 스페셜 앨범입니다.\n커다란 전면부에 박지현 가수님의 사진이 3D로 표현되어 살아있는 깊이감을 선사합니다.\n내부에는 포토북과 함께 포스터, 포토카드, 스티커등의 다양한 굿즈가 들어가며,\n카드USB까지 포함된 한정판 앨범으로 제작되었습니다.\n(사진으로는 3D의 표현이 한계가 있음을 이해해 주시기 바랍니다.)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_168407140_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_168407140_02.jpg",
+    "/api/public/site-media/imweb1488_168407140_03.jpg",
+    "/api/public/site-media/imweb1488_168407140_04.jpg",
+    "/api/public/site-media/imweb1488_168407140_05.jpg",
+    "/api/public/site-media/imweb1488_168407140_06.jpg",
+    "/api/public/site-media/imweb1488_168407140_07.jpg",
+    "/api/public/site-media/imweb1488_168407140_08.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 송민준 스페셜CD앨범",
+   "sub": "Music · CD",
+   "desc": "자석 싸바리형식으로 제작한 가수 송민준님의 스페셜 앨범입니다.\nCD와 USB앨범을 동시에 담을 수 있으며, 책자와 각종 굿즈들이 들어갑니다.\n전면의 CD트레이 부분은 위로 들어서 액자처럼 세울 수 있도록 제작되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_164437853_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_164437853_02.jpg",
+    "/api/public/site-media/imweb1488_164437853_03.jpg",
+    "/api/public/site-media/imweb1488_164437853_04.jpg",
+    "/api/public/site-media/imweb1488_164437853_05.jpg",
+    "/api/public/site-media/imweb1488_164437853_06.jpg",
+    "/api/public/site-media/imweb1488_164437853_07.jpg",
+    "/api/public/site-media/imweb1488_164437853_08.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 박창근 시집앨범(2CD책식)",
+   "sub": "Music · CD",
+   "desc": "2021년 TV조선 내일은 국민가수 우승자 가수 박창근님의 시집앨범 [시집25]\n책식앨범으로 사이즈는 150X150이며, 표지 안쪽에 각각 2장의 CD가 들어가는 형식으로 제작하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_161023527_01.gif",
+   "imgs": [
+    "/api/public/site-media/imweb1488_161023527_02.jpg",
+    "/api/public/site-media/imweb1488_161023527_03.jpg",
+    "/api/public/site-media/imweb1488_161023527_04.jpg",
+    "/api/public/site-media/imweb1488_161023527_05.jpg",
+    "/api/public/site-media/imweb1488_161023527_06.jpg",
+    "/api/public/site-media/imweb1488_161023527_07.jpg",
+    "/api/public/site-media/imweb1488_161023527_08.jpg",
+    "/api/public/site-media/imweb1488_161023527_09.jpg",
+    "/api/public/site-media/imweb1488_161023527_10.jpg",
+    "/api/public/site-media/imweb1488_161023527_11.jpg",
+    "/api/public/site-media/imweb1488_161023527_12.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 박지현 스페셜 패키지",
+   "sub": "Music · CD",
+   "desc": "가수 박지현님의 스페셜 패키지 앨범입니다.\n180X250X30사이즈이며 표지 상단에 CD가 들어가며, 지함 하단에 USB를 담아냈습니다.\nCD와 USB가 포함되어 있으며, 포토카드, 포스터, 포토북, 스티커등의 굿즈를 함께 넣을 수 있는 구조입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_160607019_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_160607019_02.jpg",
+    "/api/public/site-media/imweb1488_160607019_03.jpg",
+    "/api/public/site-media/imweb1488_160607019_04.jpg",
+    "/api/public/site-media/imweb1488_160607019_05.jpg",
+    "/api/public/site-media/imweb1488_160607019_06.jpg",
+    "/api/public/site-media/imweb1488_160607019_07.jpg",
+    "/api/public/site-media/imweb1488_160607019_08.jpg",
+    "/api/public/site-media/imweb1488_160607019_09.jpg",
+    "/api/public/site-media/imweb1488_160607019_10.jpg"
+   ],
+   "cat": "cd",
+   "title": "미스터트롯2 가수 박지현 미니1집",
+   "sub": "Music · CD",
+   "desc": "미스터트롯2 가수 박지현님의 미니1집앨범 OCEAN\n친환경 종이케이스로 제작된 앨범입니다.\n디자인은 리제그래픽에서 담당하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_134396151_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_134396151_02.jpg",
+    "/api/public/site-media/imweb1488_134396151_03.jpg",
+    "/api/public/site-media/imweb1488_134396151_04.jpg",
+    "/api/public/site-media/imweb1488_134396151_05.jpg",
+    "/api/public/site-media/imweb1488_134396151_06.jpg"
+   ],
+   "cat": "code",
+   "title": "가수 인순이 보다코드 앨범 패키지",
+   "sub": "MOBILE ALBUM",
+   "desc": "인순이 X 국방부\n국군의날 기념 보다코드 앨범 \"너의 이름을 세상이 부를때\"\n인식표(군번줄)에 보다코드를 담아 음반으로 만든 앨범입니다.\n인식표를 휴대폰에 태깅하면 음원과 사진, 영상을 감상할 수 있습니다.\n해당 패키지는 별도의 상담을 통해 기획된 앨범입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_27035376_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_27035376_02.jpg",
+    "/api/public/site-media/imweb1488_27035376_03.jpg",
+    "/api/public/site-media/imweb1488_27035376_04.jpg",
+    "/api/public/site-media/imweb1488_27035376_05.jpg",
+    "/api/public/site-media/imweb1488_27035376_06.jpg",
+    "/api/public/site-media/imweb1488_27035376_07.jpg"
+   ],
+   "cat": "cd",
+   "title": "이찬원 미니2집 스페셜CD패키지",
+   "sub": "Music · CD",
+   "desc": "가수 이찬원님의 미니 2집 CD스페셜 패키지입니다.\n싸바리 자석 지함으로 260X200X45로 제작되었으며, 표지는 대각선으로 재단하여 양쪽으로 열리게 디자인했습니다.\n양문으로 열리는 부분에는 자석을 삽입했어요.\n내부에는 미니 포스터와 화보집, CD와 명찰, ID카드와, 찬원님의 증명사진등 여러가지 굿즈가 들어갔습니다.\n제품문의",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_27036652_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_27036652_02.jpg",
+    "/api/public/site-media/imweb1488_27036652_03.jpg",
+    "/api/public/site-media/imweb1488_27036652_04.jpg",
+    "/api/public/site-media/imweb1488_27036652_05.jpg",
+    "/api/public/site-media/imweb1488_27036652_06.jpg",
+    "/api/public/site-media/imweb1488_27036652_07.jpg",
+    "/api/public/site-media/imweb1488_27036652_08.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 김경호 30주년 기념 앨범",
+   "sub": "Music · CD",
+   "desc": "대한민국 최고의 락 가수 김경호님의 30주년 기념 앨범을 제작했습니다.\n자석 싸바리 패키지로 제작했으며, 크기는 180X250X30입니다.\n오른쪽 세네카 부분에 자석을 넣어 또깍 또깍 열렸다 닫히게 만들었어요.\n표지는 강렬한 레드로 별색인쇄 때려줬고, 검정색 부분은 유광 먹박으로 쾅!\n안쪽에는 화보집과 브로마이드, CD와 포토카드등의 굿즈를 담았습니다.\nCD트레이는 4면 각을 새워서 높이를 줬기 때문에 내부의 제품들과 상자의 가장 윗부분의 단차는 최소화 시켰습니다.\n멜론에서 음악듣기",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_24567706_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_24567706_02.jpg",
+    "/api/public/site-media/imweb1488_24567706_03.jpg",
+    "/api/public/site-media/imweb1488_24567706_04.jpg",
+    "/api/public/site-media/imweb1488_24567706_05.jpg",
+    "/api/public/site-media/imweb1488_24567706_06.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 이찬원 미니앨범",
+   "sub": "Music · CD",
+   "desc": "가수 이찬원 2집 미니앨범\n케이스: 팝업 디지팩 케이스\n앨범을 펼치면 CD가 팝업되며 입체적인 구조로 이찬원님을 위해 기획한 케이스입니다.\n보다아트 디자인 특허로 오직 보다아트에서만 제작 가능합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_24569165_01.jpg",
+   "imgs": [
+    "/api/public/site-media/imweb1488_24569165_02.jpg",
+    "/api/public/site-media/imweb1488_24569165_03.jpg",
+    "/api/public/site-media/imweb1488_24569165_04.jpg",
+    "/api/public/site-media/imweb1488_24569165_05.jpg",
+    "/api/public/site-media/imweb1488_24569165_06.jpg",
+    "/api/public/site-media/imweb1488_24569165_07.jpg"
+   ],
+   "cat": "cd",
+   "title": "가수 김희재 스페셜 패키지",
+   "sub": "Music · CD",
+   "desc": "가수 김희재님의 2집 정규 스페셜 패키지 앨범입니다.\n300X300사이즈의 대형 자석싸바리 상자로 제작했으며, 내부에는 USB와 LP모형등 다양한 굿즈로 채워졌습니다.\n모든 기획과 생산은 보다아트에서 진행합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23067029_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23067029_02.png",
+    "/api/public/site-media/imweb1488_23067029_03.png"
+   ],
+   "cat": "cd",
+   "title": "교육용 CD",
+   "sub": "Music · CD",
+   "desc": "교육용CD제작\n연질 사각 케이스 사용",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23067118_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23067118_02.png",
+    "/api/public/site-media/imweb1488_23067118_03.png"
+   ],
+   "cat": "cd",
+   "title": "교육용CD",
+   "sub": "Music · CD",
+   "desc": "교육용CD제작\n창봉투 사용.\n교재와 함께 배포용으로 많이 사용되는 창봉투 케이스입니다.\n가격이 저렴합니다^^",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23067219_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23067219_02.png",
+    "/api/public/site-media/imweb1488_23067219_03.png",
+    "/api/public/site-media/imweb1488_23067219_04.png",
+    "/api/public/site-media/imweb1488_23067219_05.png"
+   ],
+   "cat": "cd",
+   "title": "교육용CD",
+   "sub": "Music · CD",
+   "desc": "유아 교육용CD제작\n주얼케이스\n1+1P 자켓 (아트지 150g)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23067282_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23067282_02.png",
+    "/api/public/site-media/imweb1488_23067282_03.png",
+    "/api/public/site-media/imweb1488_23067282_04.png"
+   ],
+   "cat": "cd",
+   "title": "2018 평창 동계올림픽 기념 CD",
+   "sub": "Music · CD",
+   "desc": "CD제작\n슬림케이스\n1P 단면 인쇄물 (스노우지 215g)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23067498_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23067498_02.png",
+    "/api/public/site-media/imweb1488_23067498_03.png",
+    "/api/public/site-media/imweb1488_23067498_04.png"
+   ],
+   "cat": "cd",
+   "title": "CJ ENM 영화 써니 홍보DVD",
+   "sub": "Music · DVD",
+   "desc": "DVD제작\n주얼케이스\n2+1P 자켓",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23067926_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23067926_02.png",
+    "/api/public/site-media/imweb1488_23067926_03.png",
+    "/api/public/site-media/imweb1488_23067926_04.png",
+    "/api/public/site-media/imweb1488_23067926_05.png"
+   ],
+   "cat": "package",
+   "title": "아이콘 노민우 싸바리 패키지",
+   "sub": "Print · Ssabari",
+   "desc": "일본에서 상당한 인기 몰이중인 아이콘 노민우씨의 일본판 싸바리 패키지입니다.\nDVD 2장과 책자, 탁상용 가방걸이가 수록되어있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23068008_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23068008_02.png",
+    "/api/public/site-media/imweb1488_23068008_03.png",
+    "/api/public/site-media/imweb1488_23068008_04.png",
+    "/api/public/site-media/imweb1488_23068008_05.png"
+   ],
+   "cat": "package",
+   "title": "넥슨 네온 스튜디오 온라인 게임\"구운몽 패키지\"",
+   "sub": "Print · Package",
+   "desc": "넥슨의 네온 스튜디오 온라인 게임 \"구운몽패키지\"\n패키지 박스와 각종 인쇄물, 스티커가 포함되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23068074_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23068074_02.png",
+    "/api/public/site-media/imweb1488_23068074_03.png",
+    "/api/public/site-media/imweb1488_23068074_04.png",
+    "/api/public/site-media/imweb1488_23068074_05.png"
+   ],
+   "cat": "package",
+   "title": "제국의아이들 패키지제작",
+   "sub": "Print · Package",
+   "desc": "제국의 아이들 스페셜 패키지\n브로마이드와 사진북 DVD가 포함된 패키지입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23068390_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23068390_02.png",
+    "/api/public/site-media/imweb1488_23068390_03.png",
+    "/api/public/site-media/imweb1488_23068390_04.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "소량제작 CD음반입니다.\n슬림케이스와 양면 자켓 사용.\n자켓 사양 (215g 스노우지 앞면 코팅)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23068631_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23068631_02.png",
+    "/api/public/site-media/imweb1488_23068631_03.png",
+    "/api/public/site-media/imweb1488_23068631_04.png",
+    "/api/public/site-media/imweb1488_23068631_05.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "소량제작 CD\n주얼 투명케이스\n앞 2페이지 뒤 2페이지 자켓사용 150g",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23068723_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23068723_02.png",
+    "/api/public/site-media/imweb1488_23068723_03.png",
+    "/api/public/site-media/imweb1488_23068723_04.png",
+    "/api/public/site-media/imweb1488_23068723_05.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "대량CD음반\n주얼 투명 케이스\n앞 8페이지 병품접지 뒤2페이지 자켓 사용",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23068813_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23068813_02.png",
+    "/api/public/site-media/imweb1488_23068813_03.png",
+    "/api/public/site-media/imweb1488_23068813_04.png",
+    "/api/public/site-media/imweb1488_23068813_05.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "CD음반\n주얼투명케이스\n앞2페이지 뒤2페이지 자켓사용\n소량제작 방식으로 제작되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23069336_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23069336_02.png",
+    "/api/public/site-media/imweb1488_23069336_03.png",
+    "/api/public/site-media/imweb1488_23069336_04.png",
+    "/api/public/site-media/imweb1488_23069336_05.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "소량제작으로 만든 CD음반입니다.\n주얼투명케이스에 앞 8P 중철 책자 뒤 2페이지 자켓.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23069391_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23069391_02.png",
+    "/api/public/site-media/imweb1488_23069391_03.png",
+    "/api/public/site-media/imweb1488_23069391_04.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "극소량제작CD음반입니다.\n깔끔하게 흰색 위주로 디자인하였습니다.\n극소량 제작 시 흰색을 적극 추천합니다^^\n앞자켓 2P 뒤 1P",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23069814_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23069814_02.png",
+    "/api/public/site-media/imweb1488_23069814_03.png",
+    "/api/public/site-media/imweb1488_23069814_04.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "소량제작 CD음반\n주얼케이스 앞2페이지 뒤1페이지 자켓",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23069923_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23069923_02.png",
+    "/api/public/site-media/imweb1488_23069923_03.png",
+    "/api/public/site-media/imweb1488_23069923_04.png"
+   ],
+   "cat": "cd",
+   "title": "인디음반",
+   "sub": "Music · CD",
+   "desc": "앞 2페이지 뒤2페이지 자켓.\n주얼 투명케이스 사용",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23070953_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23070953_02.png",
+    "/api/public/site-media/imweb1488_23070953_03.png",
+    "/api/public/site-media/imweb1488_23070953_04.png",
+    "/api/public/site-media/imweb1488_23070953_05.png"
+   ],
+   "cat": "cd",
+   "title": "기업홍보CD",
+   "sub": "Music · CD",
+   "desc": "기업홍보CD",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071037_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071037_02.png",
+    "/api/public/site-media/imweb1488_23071037_03.png",
+    "/api/public/site-media/imweb1488_23071037_04.png",
+    "/api/public/site-media/imweb1488_23071037_05.png"
+   ],
+   "cat": "package",
+   "title": "대형2단1트레이 디지팩",
+   "sub": "Print · Digipak",
+   "desc": "대형2단 1트레이 디지팩 케이스입니다.\n표면은 유광 라미네이팅 코팅하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071120_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071120_02.png",
+    "/api/public/site-media/imweb1488_23071120_03.png",
+    "/api/public/site-media/imweb1488_23071120_04.png"
+   ],
+   "cat": "package",
+   "title": "소형 3단 1트레이 디지팩",
+   "sub": "Print · Digipak",
+   "desc": "소형 3단 1트레이 디지팩입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071227_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071227_02.png",
+    "/api/public/site-media/imweb1488_23071227_03.png",
+    "/api/public/site-media/imweb1488_23071227_04.png",
+    "/api/public/site-media/imweb1488_23071227_05.png"
+   ],
+   "cat": "package",
+   "title": "대형 2단 1트레이 디지팩",
+   "sub": "Print · Digipak",
+   "desc": "\"바다를 담은 소녀\"\n제주해녀 헌정앨범입니다.\n대형2단1트레이 디지팩이며, 북클릿은 42페이지를 접착하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071571_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071571_02.png",
+    "/api/public/site-media/imweb1488_23071571_03.png",
+    "/api/public/site-media/imweb1488_23071571_04.png",
+    "/api/public/site-media/imweb1488_23071571_05.png"
+   ],
+   "cat": "cd",
+   "title": "관공서 DVD제작",
+   "sub": "Music · DVD",
+   "desc": "DVD\n슬림DVD투명케이스\n단면DVD자켓",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071747_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071747_02.png",
+    "/api/public/site-media/imweb1488_23071747_03.png",
+    "/api/public/site-media/imweb1488_23071747_04.png",
+    "/api/public/site-media/imweb1488_23071747_05.png"
+   ],
+   "cat": "cd",
+   "title": "[대학 졸업작품DVD] 6P DVD케이스",
+   "sub": "Music · DVD",
+   "desc": "대학의 졸업작품DVD입니다.\n영상학과 또는 디자인학과등 예체등 계열의 학과에서 졸업작품전을 위해 제작합니다.\nDVD 6P케이스로 제작되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071811_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071811_02.png",
+    "/api/public/site-media/imweb1488_23071811_03.png",
+    "/api/public/site-media/imweb1488_23071811_04.png",
+    "/api/public/site-media/imweb1488_23071811_05.png"
+   ],
+   "cat": "package",
+   "title": "[대형 3단 1트레이 디지팩]",
+   "sub": "Print · Digipak",
+   "desc": "가수 그룹의 앨범입니다.\n대형 3단1트레이 디지팩이며, CCP용지 350g으로 제작.\n인쇄 후 표면은 무광과 유광 코팅을 선택할 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071875_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071875_02.png",
+    "/api/public/site-media/imweb1488_23071875_03.png",
+    "/api/public/site-media/imweb1488_23071875_04.png"
+   ],
+   "cat": "cd",
+   "title": "문화센터 교육용CD",
+   "sub": "Music · CD",
+   "desc": "문화센터 교육용CD (동요CD)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23071933_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23071933_02.png",
+    "/api/public/site-media/imweb1488_23071933_03.png"
+   ],
+   "cat": "cd",
+   "title": "문화센터 교육용CD",
+   "sub": "Music · CD",
+   "desc": "문화센터 교육용CD (동요CD)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23072189_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23072189_02.png",
+    "/api/public/site-media/imweb1488_23072189_03.png",
+    "/api/public/site-media/imweb1488_23072189_04.png",
+    "/api/public/site-media/imweb1488_23072189_05.png"
+   ],
+   "cat": "cd",
+   "title": "음반CD [소형4단2트레이 디지팩]",
+   "sub": "Music · CD",
+   "desc": "소형 4단 2트레이 디지팩 케이스입니다.\n블루파프리카의 음반CD입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23072236_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23072236_02.png",
+    "/api/public/site-media/imweb1488_23072236_03.png",
+    "/api/public/site-media/imweb1488_23072236_04.png",
+    "/api/public/site-media/imweb1488_23072236_05.png"
+   ],
+   "cat": "cd",
+   "title": "음반CD [주얼케이스(투명트레이)]",
+   "sub": "Music · CD",
+   "desc": "모짜르트 꿀띠쉐프 기념 CD음반입니다.\n주얼케이스 투명 트레이사용\n2+2페이지 자켓",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23072318_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23072318_02.png",
+    "/api/public/site-media/imweb1488_23072318_03.png",
+    "/api/public/site-media/imweb1488_23072318_04.png",
+    "/api/public/site-media/imweb1488_23072318_05.png"
+   ],
+   "cat": "cd",
+   "title": "[음반CD] 소형2단 디지팩",
+   "sub": "Music · CD",
+   "desc": "엘 까미니또의 음반CD입니다.\n소형2단 1트레이 디지팩\n8P 몰블랑 용지 130g",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23072421_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23072421_02.png",
+    "/api/public/site-media/imweb1488_23072421_03.png",
+    "/api/public/site-media/imweb1488_23072421_04.png"
+   ],
+   "cat": "cd",
+   "title": "[음반CD] 세로형 소형 2단1트레이 디지팩",
+   "sub": "Music · CD",
+   "desc": "세로형 소형 2단1트레이 디지팩 케이스\n기존 가로형 트레이 배치를 세로형으로 바꿔 제작 가능.\n좀 더 새로운 느낌을 줍니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23072520_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23072520_02.png",
+    "/api/public/site-media/imweb1488_23072520_03.png",
+    "/api/public/site-media/imweb1488_23072520_04.png",
+    "/api/public/site-media/imweb1488_23072520_05.png"
+   ],
+   "cat": "cd",
+   "title": "[교육용CD] 창봉투",
+   "sub": "Music · CD",
+   "desc": "교육용CD\n창봉투",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23072754_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23072754_02.png",
+    "/api/public/site-media/imweb1488_23072754_03.png",
+    "/api/public/site-media/imweb1488_23072754_04.png",
+    "/api/public/site-media/imweb1488_23072754_05.png"
+   ],
+   "cat": "cd",
+   "title": "[음반CD]4단 DM종이케이스",
+   "sub": "Music · CD",
+   "desc": "4단 DM 종이케이스입니다.\nLP 슬리브의 축소판이죠^^",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23073608_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23073608_02.png",
+    "/api/public/site-media/imweb1488_23073608_03.png",
+    "/api/public/site-media/imweb1488_23073608_04.png"
+   ],
+   "cat": "cd",
+   "title": "현진영 음반CD",
+   "sub": "Music · CD",
+   "desc": "가수 현진영 음반CD",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23073681_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23073681_02.png",
+    "/api/public/site-media/imweb1488_23073681_03.png",
+    "/api/public/site-media/imweb1488_23073681_04.png",
+    "/api/public/site-media/imweb1488_23073681_05.png"
+   ],
+   "cat": "cd",
+   "title": "K2 김성면 음반CD",
+   "sub": "Music · CD",
+   "desc": "가수 김성면 음반CD\n소형 2단 1트레이 디지팩 케이스",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23073744_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23073744_02.png",
+    "/api/public/site-media/imweb1488_23073744_03.png",
+    "/api/public/site-media/imweb1488_23073744_04.png",
+    "/api/public/site-media/imweb1488_23073744_05.png"
+   ],
+   "cat": "cd",
+   "title": "영화\"귀향OST\"",
+   "sub": "Music · CD",
+   "desc": "영화 귀향OST 음반CD\n소형 3단 1트레이 디지팩",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074126_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074126_02.png",
+    "/api/public/site-media/imweb1488_23074126_03.png",
+    "/api/public/site-media/imweb1488_23074126_04.png",
+    "/api/public/site-media/imweb1488_23074126_05.png"
+   ],
+   "cat": "cd",
+   "title": "랩퍼 나다 음반[4단종이케이스]",
+   "sub": "Music · CD",
+   "desc": "랩퍼 나다의 음반입니다.\n4단 DM종이케이스로 제작되었습니다.\n엽서와 커버아트 스티커",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074185_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074185_02.png",
+    "/api/public/site-media/imweb1488_23074185_03.png",
+    "/api/public/site-media/imweb1488_23074185_04.png",
+    "/api/public/site-media/imweb1488_23074185_05.png"
+   ],
+   "cat": "package",
+   "title": "대형3단1트레이 디지팩",
+   "sub": "Print · Digipak",
+   "desc": "대형3단 1트레이 디지팩 케이스입니다.\n12P 메뉴얼 접착했으며, 용지는 몽블랑 130g입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074355_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074355_02.png",
+    "/api/public/site-media/imweb1488_23074355_03.png",
+    "/api/public/site-media/imweb1488_23074355_04.png",
+    "/api/public/site-media/imweb1488_23074355_05.png"
+   ],
+   "cat": "cd",
+   "title": "가수 김경록의 솔로 음반",
+   "sub": "Music · CD",
+   "desc": "가수 김경록의 솔로 음반\n대형 3단 디지팩 가로형\n몽블랑 24P중철책자",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074478_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074478_02.png",
+    "/api/public/site-media/imweb1488_23074478_03.png",
+    "/api/public/site-media/imweb1488_23074478_04.png",
+    "/api/public/site-media/imweb1488_23074478_05.png"
+   ],
+   "cat": "cd",
+   "title": "오디오드라마CD",
+   "sub": "Music · CD",
+   "desc": "DVD 8P 멀티 케이스",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074616_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074616_02.png",
+    "/api/public/site-media/imweb1488_23074616_03.png",
+    "/api/public/site-media/imweb1488_23074616_04.png",
+    "/api/public/site-media/imweb1488_23074616_05.png"
+   ],
+   "cat": "package",
+   "title": "소형 2단 1트레이 싸바리 케이스",
+   "sub": "Print · Ssabari",
+   "desc": "소형 2단 1트레이 싸바리 케이스입니다.\n정확한 명칭은 표지바리 디지팩입니다.\n일반 디지팩과 다르게 표지를 둘어서 만드는 방식으로,\n일반 디지팩보다 튼튼하며, 퀄리티가 높습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074706_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074706_02.png",
+    "/api/public/site-media/imweb1488_23074706_03.png",
+    "/api/public/site-media/imweb1488_23074706_04.png",
+    "/api/public/site-media/imweb1488_23074706_05.png"
+   ],
+   "cat": "cd",
+   "title": "[음반CD] 트로트 명곡 베스트 패키지",
+   "sub": "Music · CD",
+   "desc": "연질 사각 2CD케이스에 CD를 2장 넣었습니다.\n슬리브를 제작하여, 케이스를 감쌀 수 있습니다.\n연질 사각 케이스는 자켓을 넣을 수 있는 필름을 추가 할 수 있으며, 필요가 없을 시 필름을 제거할 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074765_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074765_02.png",
+    "/api/public/site-media/imweb1488_23074765_03.png",
+    "/api/public/site-media/imweb1488_23074765_04.png",
+    "/api/public/site-media/imweb1488_23074765_05.png"
+   ],
+   "cat": "package",
+   "title": "서랍형 종이케이스",
+   "sub": "Print · Paper Case",
+   "desc": "태권도원에서 제작한 서랍형 종이케이스 DVD패키지.\n300g 크라프트용지\n먹1도(검정)인쇄가 기본입니다.\n금박인쇄와 은박인쇄등 후가공이 가능합니다.\n기본 제작 수량 500장입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074852_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074852_02.png",
+    "/api/public/site-media/imweb1488_23074852_03.png",
+    "/api/public/site-media/imweb1488_23074852_04.png",
+    "/api/public/site-media/imweb1488_23074852_05.png"
+   ],
+   "cat": "cd",
+   "title": "가수 이기찬 음반CD 있나요",
+   "sub": "Music · CD",
+   "desc": "가수 이기찬씨의 2018 4월 싱글 음반입니다.\n슬림케이스와 CD프래싱, 양면 인쇄물로 구성",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23074996_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23074996_02.png",
+    "/api/public/site-media/imweb1488_23074996_03.png",
+    "/api/public/site-media/imweb1488_23074996_04.png",
+    "/api/public/site-media/imweb1488_23074996_05.png"
+   ],
+   "cat": "cd",
+   "title": "프리파라 OST 패키지",
+   "sub": "Music · CD",
+   "desc": "현재 방영중인 \"프리파라 OST\" 음반 패키지입니다.\n주얼케이스에 CD와 6페이지 자켓으로 구성되어,\n2종이 포함되며, 홀로그램 카드가 삽입되었고,\n아웃박스를 제작하여 담아낸 패키지입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075105_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075105_02.png",
+    "/api/public/site-media/imweb1488_23075105_03.png",
+    "/api/public/site-media/imweb1488_23075105_04.png"
+   ],
+   "cat": "cd",
+   "title": "랩퍼 나다 X 미나명 프로젝트 음반",
+   "sub": "Music · CD",
+   "desc": "랩퍼 나다와 미나명의 콜라보레이션 음반.\n4단 DM종이케이스로 제작되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075200_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075200_02.png",
+    "/api/public/site-media/imweb1488_23075200_03.png",
+    "/api/public/site-media/imweb1488_23075200_04.png",
+    "/api/public/site-media/imweb1488_23075200_05.png"
+   ],
+   "cat": "cd",
+   "title": "울랄라세션 군조 음반CD",
+   "sub": "Music · CD",
+   "desc": "울랄라세션의 전 멤버 군조의 음반CD입니다.\n2단 종이케이스로 제작하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075268_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075268_02.png",
+    "/api/public/site-media/imweb1488_23075268_03.png",
+    "/api/public/site-media/imweb1488_23075268_04.png",
+    "/api/public/site-media/imweb1488_23075268_05.png"
+   ],
+   "cat": "cd",
+   "title": "중앙선거관리위원회 21단 DVD 아웃케이스",
+   "sub": "Music · DVD",
+   "desc": "중앙선거관리위원회의 DVD 수납 아웃싸바리박스.\nDVD케이스 21개 수납가능합니다.\n케이스 수량이 변경되면 그에 맞게 사이즈를 변형하여 제작이 가능합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075409_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075409_02.png",
+    "/api/public/site-media/imweb1488_23075409_03.png",
+    "/api/public/site-media/imweb1488_23075409_04.png",
+    "/api/public/site-media/imweb1488_23075409_05.png"
+   ],
+   "cat": "cd",
+   "title": "VOS 음반CD",
+   "sub": "Music · CD",
+   "desc": "그룹 VOS의 정규 음반\n대형2단 디지팩에 제작되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075549_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075549_02.png",
+    "/api/public/site-media/imweb1488_23075549_03.png",
+    "/api/public/site-media/imweb1488_23075549_04.png",
+    "/api/public/site-media/imweb1488_23075549_05.png"
+   ],
+   "cat": "package",
+   "title": "자석 싸바리 박스 패키지",
+   "sub": "Print · Ssabari",
+   "desc": "A4 사이즈의 자석 싸바리 박스입니다.\n안쪽에 CD 2장이 들어가도록 스폰지를 가공하여 붙였습니다.\n기업의 프로그램 매뉴얼 패키지 용도로 많이 사용합니다.\n소량제작은 100개부터 가능하며, 평균 제작 수량은 500장이 적합하고, 제작 기간은 약 8일 정도 소요됩니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075706_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075706_02.png",
+    "/api/public/site-media/imweb1488_23075706_03.png",
+    "/api/public/site-media/imweb1488_23075706_04.png",
+    "/api/public/site-media/imweb1488_23075706_05.png"
+   ],
+   "cat": "cd",
+   "title": "은광CD음반",
+   "sub": "Music · CD",
+   "desc": "은광 CD의 느낌을 그대로 살려서 인쇄한 음반CD입니다.\n1도 실크인쇄로 진행했으며, 50장 소량제작하였습니다.\n극소량제작도 은광CD를 제작할 수 있으며, 인쇄물 또한 정품의 퀄리티로 제작 가능합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075871_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075871_02.png",
+    "/api/public/site-media/imweb1488_23075871_03.png",
+    "/api/public/site-media/imweb1488_23075871_04.png",
+    "/api/public/site-media/imweb1488_23075871_05.png"
+   ],
+   "cat": "cd",
+   "title": "가수 캔 CAN 음반 \"원츄\"",
+   "sub": "Music · CD",
+   "desc": "가수 캔의 음반CD입니다.\n주얼케이스에 앞자켓 2페이지 뒷자켓 1페이지로 구성하였습니다.\n요즘은 싱글 앨범이 다수라서 한곡의 음원이 앨범에 수록되기 때문에\n자켓의 페이지수가 많지 않은 음반입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075928_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075928_02.png",
+    "/api/public/site-media/imweb1488_23075928_03.png",
+    "/api/public/site-media/imweb1488_23075928_04.png",
+    "/api/public/site-media/imweb1488_23075928_05.png"
+   ],
+   "cat": "package",
+   "title": "대형2단 디지팩 홀더형",
+   "sub": "Print · Digipak",
+   "desc": "대형2단 디지팩 홀더형입니다.\n일반 디지팩 표지 안쪽에 메뉴얼을 넣을 수 있는 홀더를 만들어줬습니다.\n두께는 책자의 두께에 따라 조절하여 제작이 가능합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23075995_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23075995_02.png",
+    "/api/public/site-media/imweb1488_23075995_03.png",
+    "/api/public/site-media/imweb1488_23075995_04.png",
+    "/api/public/site-media/imweb1488_23075995_05.png"
+   ],
+   "cat": "cd",
+   "title": "가수 김경호 10집 [대형3단 디지팩]",
+   "sub": "Music · CD",
+   "desc": "가수 김경호 10집 정규음반.\n대형3단 디지팩케이스와 몽블랑 28페이지 북렛으로 구성하였습니다.\n북렛을 케이스 안쪽에 접착하여 더욱 풍성하게 보이게 합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23076058_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23076058_02.png",
+    "/api/public/site-media/imweb1488_23076058_03.png",
+    "/api/public/site-media/imweb1488_23076058_04.png"
+   ],
+   "cat": "package",
+   "title": "소형 3단 2트레이 디지팩",
+   "sub": "Print · Digipak",
+   "desc": "소형 3단 2트레이 디지팩케이스.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23076148_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23076148_02.png",
+    "/api/public/site-media/imweb1488_23076148_03.png",
+    "/api/public/site-media/imweb1488_23076148_04.png",
+    "/api/public/site-media/imweb1488_23076148_05.png"
+   ],
+   "cat": "package",
+   "title": "패키지 박스",
+   "sub": "Print · Box",
+   "desc": "DVD케이스 3개와 무선재본 책자를 수용하는 싸바리 박스.\n싸바리 박스는 원하는 형태에 따라 가공이 가능하며,\n주문 전 원하시는 형태와 크기를 정하신 후에 문의주시면 됩니다.\n대충이라도 사이즈를 알려주시면 본사에서 가이드라인을 제시해 드리며,\n제작 전 해당 디자인 칼선을 보내드립니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23076249_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23076249_02.png",
+    "/api/public/site-media/imweb1488_23076249_03.png",
+    "/api/public/site-media/imweb1488_23076249_04.png",
+    "/api/public/site-media/imweb1488_23076249_05.png"
+   ],
+   "cat": "package",
+   "title": "디지팩+아웃케이스",
+   "sub": "Print · Digipak",
+   "desc": "대형 3단 디지팩과 아웃케이스(슬리브)\n대형 3단 디지팩을 넣을 수 있는 아웃케이스입니다.\n아웃케이스의 형태는 한쪽 막힘형과 뚫림형이 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23076313_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23076313_02.png",
+    "/api/public/site-media/imweb1488_23076313_03.png",
+    "/api/public/site-media/imweb1488_23076313_04.png",
+    "/api/public/site-media/imweb1488_23076313_05.png"
+   ],
+   "cat": "cd",
+   "title": "뮤지컬 윤동주 달을쏘다 [대형3단 2트레이 디지팩]",
+   "sub": "Music · CD",
+   "desc": "유명 뮤지컬 \"윤동주, 달을쏘다\" OST음반제작\n대형 3단 2트레이 디지팩 + 40페이지 북렛으로 구성",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23079272_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23079272_02.png",
+    "/api/public/site-media/imweb1488_23079272_03.png",
+    "/api/public/site-media/imweb1488_23079272_04.png"
+   ],
+   "cat": "cd",
+   "title": "뮤지컬 \"풍월주\" [대형2단 트윈트레이]",
+   "sub": "Music · CD",
+   "desc": "유명 뮤지컬 \"풍월주\"의 OST음반.\n대형2단 트윈트레이 + 72페이지 북렛을 접착",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23079330_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23079330_02.png",
+    "/api/public/site-media/imweb1488_23079330_03.png",
+    "/api/public/site-media/imweb1488_23079330_04.png",
+    "/api/public/site-media/imweb1488_23079330_05.png"
+   ],
+   "cat": "package",
+   "title": "대형 4단 5트레이 디지팩",
+   "sub": "Print · Digipak",
+   "desc": "대형 4단 5트레이 디지팩입니다.\n트윈트레이 2개와 싱글 트레이 1개를 부착하여 5장의 DVD를 넣을 수 있게 하였고,\nㄷ자형 아웃케이스로 마감하였습니다.\n후가공은 아웃케이스 실버은박, 디지팩 표지는 로즈골드 박금.\nDVD 표면은 은광으로 인쇄하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23079407_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23079407_02.png",
+    "/api/public/site-media/imweb1488_23079407_03.png",
+    "/api/public/site-media/imweb1488_23079407_04.png",
+    "/api/public/site-media/imweb1488_23079407_05.png"
+   ],
+   "cat": "cd",
+   "title": "[뮤지컬ost 루드윅] 대형 3단 4트레이 디지팩",
+   "sub": "Music · CD",
+   "desc": "[뮤지컬ost 루드윅] 대형 3단 4트레이 디지팩\n대형 3단 디지팩에 트윈트레이 2개를 붙여 4장의 CD가 들어갈 수 있게 하였습니다.\n표지 안쪽에는 책자를 붙여서 케이스와 일체형으로 만들었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23083976_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23083976_02.png",
+    "/api/public/site-media/imweb1488_23083976_03.png",
+    "/api/public/site-media/imweb1488_23083976_04.png",
+    "/api/public/site-media/imweb1488_23083976_05.png"
+   ],
+   "cat": "cd",
+   "title": "데이식스 (DAY6) 캘린더 CD음반 패키지",
+   "sub": "Music · CD",
+   "desc": "데이식스(DAY6)\n탁상용 캘린더 스타일의 음반 패키지입니다.\n아웃박스에 캘린더와 포토북이 들어갑니다.\n캘린더에 CD음반이 함께 들어가는 형식입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084028_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084028_02.png",
+    "/api/public/site-media/imweb1488_23084028_03.png",
+    "/api/public/site-media/imweb1488_23084028_04.png",
+    "/api/public/site-media/imweb1488_23084028_05.png"
+   ],
+   "cat": "usb",
+   "title": "USB 단상자",
+   "sub": "Music · USB",
+   "desc": "USB전용 단상자입니다.\n스틱형 카드형 USB를 넣을 수 있습니다.\n상자 하단에 각종 굿즈를 담을 수 있어 가치가 큽니다.\n패키지 구성에 용이합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084094_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084094_02.png",
+    "/api/public/site-media/imweb1488_23084094_03.png",
+    "/api/public/site-media/imweb1488_23084094_04.png",
+    "/api/public/site-media/imweb1488_23084094_05.png"
+   ],
+   "cat": "cd",
+   "title": "[4단종이케이스] 핑크퐁 OST음반",
+   "sub": "Music · CD",
+   "desc": "핑크퐁 OST음반으로 사용된\n4단 종이케이스입니다.\n본 케이스는 양면인쇄하여 안쪽에 이미지를 하나로 이은것입니다.\n보통 단면 인쇄하여 제작됩니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084160_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084160_02.png",
+    "/api/public/site-media/imweb1488_23084160_03.png",
+    "/api/public/site-media/imweb1488_23084160_04.png",
+    "/api/public/site-media/imweb1488_23084160_05.png"
+   ],
+   "cat": "package",
+   "title": "중형 2단 코어형 디지팩케이스",
+   "sub": "Print · Digipak",
+   "desc": "중형 2단 디지팩케이스입니다.\n소형2단디지팩 보다 사이즈가 큽니다.\n가로 세로 150mm X 150mm",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084195_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084195_02.png",
+    "/api/public/site-media/imweb1488_23084195_03.png",
+    "/api/public/site-media/imweb1488_23084195_04.png",
+    "/api/public/site-media/imweb1488_23084195_05.png"
+   ],
+   "cat": "cd",
+   "title": "[소형2단 디지팩] 가수 곽동현 음반",
+   "sub": "Music · CD",
+   "desc": "가수 곽동현의 음반입니다.\n소형2단 디지팩\n6P 인쇄물 접착(몽블랑 130g)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084320_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084320_02.png",
+    "/api/public/site-media/imweb1488_23084320_03.png",
+    "/api/public/site-media/imweb1488_23084320_04.png",
+    "/api/public/site-media/imweb1488_23084320_05.png"
+   ],
+   "cat": "cd",
+   "title": "[트로트] 대형3단 1트레이 디지팩 음반",
+   "sub": "Music · CD",
+   "desc": "트로트음반에 사용된 대형3단 1트레이 디지팩입니다.\n안쪽 세네카를 최대한 얇게 도무송처리하여 타사보다 상품성을 높였습니다.\n안쪽의 이어지는 디자인일 때 사용하면 좋습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084385_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084385_02.png",
+    "/api/public/site-media/imweb1488_23084385_03.png",
+    "/api/public/site-media/imweb1488_23084385_04.png"
+   ],
+   "cat": "cd",
+   "title": "[가수 양준일음반] 소형2단 디지팩",
+   "sub": "Music · CD",
+   "desc": "가수 양준일님의 음반입니다.\n소형2단 디지팩케이스에 6p자켓으로 제작되었습니다.\n케이스 표면을 거친 느낌으로 하고 싶으시면\n아이보리 배면 인쇄를 추천드립니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084499_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084499_02.png",
+    "/api/public/site-media/imweb1488_23084499_03.png",
+    "/api/public/site-media/imweb1488_23084499_04.png",
+    "/api/public/site-media/imweb1488_23084499_05.png"
+   ],
+   "cat": "cd",
+   "title": "[뮤지컬 루드윅OST] 대형3단홀더형",
+   "sub": "Music · CD",
+   "desc": "대형3단 2 트윈트레이 홀더형 케이스입니다.\n대형3단 디지팩에 2개의 트윈 트레이를 부착하여, OST CD를 4장 삽입했습니다.\n표지 안쪽은 홀더를 만들어 책자를 넣을 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084628_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084628_02.png",
+    "/api/public/site-media/imweb1488_23084628_03.png",
+    "/api/public/site-media/imweb1488_23084628_04.png",
+    "/api/public/site-media/imweb1488_23084628_05.png"
+   ],
+   "cat": "usb",
+   "title": "[동요USB 음반] 대형2단 CD+USB케이스",
+   "sub": "Music · USB",
+   "desc": "대형2단 디지팩 CD+USB스펀지 디지팩입니다.\n대형2단 디지팩에 CD와USB를 넣을 수 있게 스펀지로 가공하여 부착하였습니다.\n표지 안쪽은 24페이지 책자를 부착하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084736_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084736_02.png",
+    "/api/public/site-media/imweb1488_23084736_03.png",
+    "/api/public/site-media/imweb1488_23084736_04.png",
+    "/api/public/site-media/imweb1488_23084736_05.png"
+   ],
+   "cat": "cd",
+   "title": "[뮤지컬 무인도탈출기OST] 대형 2단 싸바리케이스",
+   "sub": "Music · CD",
+   "desc": "뮤지컬 무인도탈출기OST\n대형 2단 싸바리케이스+2CD\n표지바리 방식으로 제작된 2CD 케이스입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084919_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084919_02.png",
+    "/api/public/site-media/imweb1488_23084919_03.png",
+    "/api/public/site-media/imweb1488_23084919_04.png",
+    "/api/public/site-media/imweb1488_23084919_05.png"
+   ],
+   "cat": "usb",
+   "title": "대형2단 USB디지팩",
+   "sub": "Music · USB",
+   "desc": "대형2단 USB디지팩 케이스입니다.\n대형2단 디지팩에 고강도 스펀지로 USB트레이를 만들어 부착했습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23084990_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23084990_02.png",
+    "/api/public/site-media/imweb1488_23084990_03.png",
+    "/api/public/site-media/imweb1488_23084990_04.png",
+    "/api/public/site-media/imweb1488_23084990_05.png"
+   ],
+   "cat": "package",
+   "title": "대형 2단 싸바리케이스",
+   "sub": "Print · Ssabari",
+   "desc": "Ro.T님의 대형 싸바리 음반 케이스입니다.\n대형사이즈에 표지와 내지를 표지바리하여 제작했으며,\nCD트레이 부분도 종이로 가공한 고급 케이스입니다.\n모조 용지로 중철 책자를 만들어 부착하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085142_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085142_02.png",
+    "/api/public/site-media/imweb1488_23085142_03.png",
+    "/api/public/site-media/imweb1488_23085142_04.png",
+    "/api/public/site-media/imweb1488_23085142_05.png"
+   ],
+   "cat": "package",
+   "title": "중형싸바리케이스",
+   "sub": "Print · Ssabari",
+   "desc": "중형사이즈의 싸바리 CD케이스입니다.\n가로 165 X 세로 160\n일반 디지팩보다 큰 사이즈이며, 표지바리식으로 제작되어 더욱 더 고급스럽습니다.\n북렛은 페이지 수에 따라 케이스의 두께가 달라집니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085197_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085197_02.png",
+    "/api/public/site-media/imweb1488_23085197_03.png",
+    "/api/public/site-media/imweb1488_23085197_04.png",
+    "/api/public/site-media/imweb1488_23085197_05.png"
+   ],
+   "cat": "cd",
+   "title": "LP스타일 CD음반패키지",
+   "sub": "Music · CD",
+   "desc": "LP판 스타일의 CD음반 패키지입니다.\nLP판과 똑같은 크기로 종이를 이용하여 트레이를 제작하고, CD를 꽂을 수 있도록 가공하였습니다.\n24P 북렛과 LP 2단 케이스에 담았습니다.\n종이LP판 상단에는 USB음반을 넣을 수 있는 공간을 만들어서 스펀지로 가공하여 담아냈습니다.\n[마지막 이미지는 일반 음반케이스와 크기 비교샷입니다]",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085309_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085309_02.png",
+    "/api/public/site-media/imweb1488_23085309_03.png",
+    "/api/public/site-media/imweb1488_23085309_04.png",
+    "/api/public/site-media/imweb1488_23085309_05.png"
+   ],
+   "cat": "cd",
+   "title": "대형3단2CD디지팩",
+   "sub": "Music · CD",
+   "desc": "대형3단 2CD 디지팩케이스\n(표면 코팅 홀로그램)\n아웃케이스(아웃슬리브)를 PT재질로하여, UV인쇄하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085419_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085419_02.png",
+    "/api/public/site-media/imweb1488_23085419_03.png",
+    "/api/public/site-media/imweb1488_23085419_04.png",
+    "/api/public/site-media/imweb1488_23085419_05.png"
+   ],
+   "cat": "cd",
+   "title": "네이버 웹툰\"화장지워주는 남자 OST\"",
+   "sub": "Music · CD",
+   "desc": "네이버의 인기 웹툰 \"화장지워주는 남자 OST음반\"\n화보집과 CD음반 그리고 USB음반등으로 기획한 패키지입니다.\n디자인을 제외한 샘플 이미지의 모든 것을 보다아트가 생산하였습니다.\n(네이버 지정 OST, 미디어 제작사 보다아트미디어입니다!)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085619_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085619_02.png",
+    "/api/public/site-media/imweb1488_23085619_03.png",
+    "/api/public/site-media/imweb1488_23085619_04.png"
+   ],
+   "cat": "cd",
+   "title": "[가수 양준일] 대형3단 디지팩",
+   "sub": "Music · CD",
+   "desc": "가수 양준일님의 음반입니다.\nCD를 포함한 모든 패키지를 보다아트가 제작했습니다.\n대형3단 디지팩케이스에 16페이지 자켓으로 구성하였으며,\n약 6종의 홀로그램 포토카드가 랜덤으로 삽입되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085677_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085677_02.png",
+    "/api/public/site-media/imweb1488_23085677_03.png",
+    "/api/public/site-media/imweb1488_23085677_04.png",
+    "/api/public/site-media/imweb1488_23085677_05.png",
+    "/api/public/site-media/imweb1488_23085677_06.png",
+    "/api/public/site-media/imweb1488_23085677_07.png"
+   ],
+   "cat": "cd",
+   "title": "(요리왕비룡 ost음반) 주얼케이스형",
+   "sub": "Music · CD",
+   "desc": "인기 애니메이션 \"요리왕비룡 ost음반\"\nCD : 실크인쇄\n케이스 : 주얼케이스\n앞지는 PP재질에 UV인쇄하였습니다.\n케이스를 보호하는 종이 슬리브로 마감하여 음반을 완성 시켰습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23085735_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23085735_02.png",
+    "/api/public/site-media/imweb1488_23085735_03.png",
+    "/api/public/site-media/imweb1488_23085735_04.png",
+    "/api/public/site-media/imweb1488_23085735_05.png",
+    "/api/public/site-media/imweb1488_23085735_06.png",
+    "/api/public/site-media/imweb1488_23085735_07.png",
+    "/api/public/site-media/imweb1488_23085735_08.png"
+   ],
+   "cat": "package",
+   "title": "대형 2단 싸바리 패키지",
+   "sub": "Print · Ssabari",
+   "desc": "렌카X왕쑤롱 글로벌 콜라보 앨범\n대형2단 싸바리케이스+16P자켓",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086009_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086009_02.png",
+    "/api/public/site-media/imweb1488_23086009_03.png",
+    "/api/public/site-media/imweb1488_23086009_04.png",
+    "/api/public/site-media/imweb1488_23086009_05.png",
+    "/api/public/site-media/imweb1488_23086009_06.png",
+    "/api/public/site-media/imweb1488_23086009_07.png",
+    "/api/public/site-media/imweb1488_23086009_08.png"
+   ],
+   "cat": "cd",
+   "title": "뮤지컬 호프 영상실황 패키지",
+   "sub": "Music · CD",
+   "desc": "삼성 클립서비스의 뮤지컬 호프 영상 실황 패키지입니다.\n대형 2단 디지팩케이스에 EV스펀지 트레이를 부착했습니다.\n스틱형 USB 3개를 담아낼 수 있습니다.\n보다아트의 디지팩은 KC인증을 마친 제품으로 각종 유해요소의 안정성 검사를 마쳤습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086068_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086068_02.png",
+    "/api/public/site-media/imweb1488_23086068_03.png",
+    "/api/public/site-media/imweb1488_23086068_04.png",
+    "/api/public/site-media/imweb1488_23086068_05.png",
+    "/api/public/site-media/imweb1488_23086068_06.png",
+    "/api/public/site-media/imweb1488_23086068_07.png",
+    "/api/public/site-media/imweb1488_23086068_08.png",
+    "/api/public/site-media/imweb1488_23086068_09.png",
+    "/api/public/site-media/imweb1488_23086068_10.png"
+   ],
+   "cat": "package",
+   "title": "대형 5단 5트레이 디지팩 패키지",
+   "sub": "Print · Digipak",
+   "desc": "대형 5단 5트레이 디지팩 케이스입니다.\n5장의 DVD가 들어갑니다.\n케이스를 접은 후 아웃케이스에 삽입하여 포장합니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086189_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086189_02.png",
+    "/api/public/site-media/imweb1488_23086189_03.png",
+    "/api/public/site-media/imweb1488_23086189_04.png"
+   ],
+   "cat": "cd",
+   "title": "[블루레이 케이스 음반]",
+   "sub": "Music · Blu-ray",
+   "desc": "블루레이 케이스를 이용한 음반입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086249_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086249_02.png",
+    "/api/public/site-media/imweb1488_23086249_03.png",
+    "/api/public/site-media/imweb1488_23086249_04.png",
+    "/api/public/site-media/imweb1488_23086249_05.png",
+    "/api/public/site-media/imweb1488_23086249_06.png",
+    "/api/public/site-media/imweb1488_23086249_07.png",
+    "/api/public/site-media/imweb1488_23086249_08.png"
+   ],
+   "cat": "cd",
+   "title": "[뮤지컬OST 더 브라더스 까라마조프] 대형3단디지팩",
+   "sub": "Music · CD",
+   "desc": "[뮤지컬OST 더 브라더스 까라마조프]\n대형3단 홀더형 디지팩\n4장의 CD를 넣을 수 있는 케이스이며, 책자를 제작하여, 케이스 표지 안쪽의 홀더에 담을 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086298_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086298_02.png",
+    "/api/public/site-media/imweb1488_23086298_03.png",
+    "/api/public/site-media/imweb1488_23086298_04.png"
+   ],
+   "cat": "package",
+   "title": "[자석싸바리 상자]",
+   "sub": "Print · Ssabari",
+   "desc": "자석 싸바리 상자입니다.\nDVD케이스 4개를 한번에 넣을 수 있는 크기입니다.\n세트 구성용으로 DVD케이스 4개를 넣고 상단의 뚜껑을 닫으면 자석에 의해 결착됩니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086390_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086390_02.png",
+    "/api/public/site-media/imweb1488_23086390_03.png",
+    "/api/public/site-media/imweb1488_23086390_04.png",
+    "/api/public/site-media/imweb1488_23086390_05.png",
+    "/api/public/site-media/imweb1488_23086390_06.png",
+    "/api/public/site-media/imweb1488_23086390_07.png",
+    "/api/public/site-media/imweb1488_23086390_08.png",
+    "/api/public/site-media/imweb1488_23086390_09.png",
+    "/api/public/site-media/imweb1488_23086390_10.png"
+   ],
+   "cat": "cd",
+   "title": "[뮤지컬 인사이드 윌리엄 OST] 2단 2CD 싸바리케이스",
+   "sub": "Music · CD",
+   "desc": "뮤지컬 인사이드 윌리엄 OST음반입니다.\n대형 싸바리 케이스로 제작했으며,\n안쪽에는 2장의 CD와 책자가 함께 들어갑니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086642_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086642_02.png",
+    "/api/public/site-media/imweb1488_23086642_03.png",
+    "/api/public/site-media/imweb1488_23086642_04.png",
+    "/api/public/site-media/imweb1488_23086642_05.png",
+    "/api/public/site-media/imweb1488_23086642_06.png",
+    "/api/public/site-media/imweb1488_23086642_07.png",
+    "/api/public/site-media/imweb1488_23086642_08.png",
+    "/api/public/site-media/imweb1488_23086642_09.png"
+   ],
+   "cat": "cd",
+   "title": "뮤지컬 검은사제들 OST음반",
+   "sub": "Music · CD",
+   "desc": "뮤지컬 검은사제들OST음반입니다.\n싸바리 방식으로 제작되었으며, 3CD로 이뤄졌습니다.\n표지와 세네카에 적박과 먹박으로 표현하였습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086702_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086702_02.png",
+    "/api/public/site-media/imweb1488_23086702_03.png",
+    "/api/public/site-media/imweb1488_23086702_04.png",
+    "/api/public/site-media/imweb1488_23086702_05.png",
+    "/api/public/site-media/imweb1488_23086702_06.png"
+   ],
+   "cat": "package",
+   "title": "영상디스플레이 3단케이스",
+   "sub": "Print · Package",
+   "desc": "(영상 디스플레이 3단 케이스)\n지금까지 음반 중 최고 퀄리티의 케이스입니다.\n음반을 펼치면 자동으로 실제 영상이 실행되며, 미공개 영상이나, 풀 영상을 담을 수 있습니다.\n케이스를 닫으면 자동으로 영상이 종료됩니다.\nCD또는 USB를 담을 수 있으며, 자켓을 부착할 수 있습니다.\n모니터의 사이즈는 4인치와 6인치로 설정 가능합니다.\n실행버튼과 사운드 키우기, 줄이기, 배터리 충전 단자등이 들어가서 완벽한 영상미디어를 완성 시켰습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086849_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086849_02.png",
+    "/api/public/site-media/imweb1488_23086849_03.png",
+    "/api/public/site-media/imweb1488_23086849_04.png",
+    "/api/public/site-media/imweb1488_23086849_05.png",
+    "/api/public/site-media/imweb1488_23086849_06.png",
+    "/api/public/site-media/imweb1488_23086849_07.png",
+    "/api/public/site-media/imweb1488_23086849_08.png"
+   ],
+   "cat": "package",
+   "title": "영상디스플레이 2단 케이스",
+   "sub": "Print · Package",
+   "desc": "(영상 디스플레이 2단 케이스)\n지금까지 음반 중 최고 단계의 케이스입니다.\n영상과 CD 또는 USB를 한번에 담아낼 수 있는 케이스입니다.\n케이스를 열면 실제로 영상이 실행되는 복합 미디어 앨범입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23086930_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23086930_02.png",
+    "/api/public/site-media/imweb1488_23086930_03.png",
+    "/api/public/site-media/imweb1488_23086930_04.png",
+    "/api/public/site-media/imweb1488_23086930_05.png",
+    "/api/public/site-media/imweb1488_23086930_06.png"
+   ],
+   "cat": "cd",
+   "title": "[블루레이케이스]",
+   "sub": "Music · Blu-ray",
+   "desc": "블루레이 케이스를 응용한 음반 패키지\n양면 자켓/4단 북렛/스티커 4종 삽지",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23087023_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23087023_02.png",
+    "/api/public/site-media/imweb1488_23087023_03.png",
+    "/api/public/site-media/imweb1488_23087023_04.png",
+    "/api/public/site-media/imweb1488_23087023_05.png",
+    "/api/public/site-media/imweb1488_23087023_06.png",
+    "/api/public/site-media/imweb1488_23087023_07.png",
+    "/api/public/site-media/imweb1488_23087023_08.png"
+   ],
+   "cat": "package",
+   "title": "싸바리 자석 지함 패키지",
+   "sub": "Print · Ssabari",
+   "desc": "자석식 싸바리 지함\n(은별색 인쇄)\nCD주얼케이스 / 12P 북렛 / 브로마이드 / 포토카드 삽지\n겉 패키지는 자석식 싸바리 지함입니다.\n내부에 CD와 기타 굿즈를 넣을 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23087316_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23087316_02.png",
+    "/api/public/site-media/imweb1488_23087316_03.png",
+    "/api/public/site-media/imweb1488_23087316_04.png",
+    "/api/public/site-media/imweb1488_23087316_05.png",
+    "/api/public/site-media/imweb1488_23087316_06.png"
+   ],
+   "cat": "cd",
+   "title": "[게임OST음반]대형 3단 디지팩+16P 북렛",
+   "sub": "Music · CD",
+   "desc": "대형3단 디지팩에 16P 북렛 접착.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23087375_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23087375_02.png",
+    "/api/public/site-media/imweb1488_23087375_03.png",
+    "/api/public/site-media/imweb1488_23087375_04.png",
+    "/api/public/site-media/imweb1488_23087375_05.png",
+    "/api/public/site-media/imweb1488_23087375_06.png",
+    "/api/public/site-media/imweb1488_23087375_07.png"
+   ],
+   "cat": "package",
+   "title": "4P멀티케이스 패키지",
+   "sub": "Print · Package",
+   "desc": "4P 멀티 케이스를 응용한 패키지 구성.\n4P멀티케이스 전면 자켓 (PET UV인쇄, 은박인쇄)\n2단 종이봉투 제작 + 포토카드2종/도무송 스티커1종\n브로마이드",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23087475_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23087475_02.png",
+    "/api/public/site-media/imweb1488_23087475_03.png",
+    "/api/public/site-media/imweb1488_23087475_04.png",
+    "/api/public/site-media/imweb1488_23087475_05.png",
+    "/api/public/site-media/imweb1488_23087475_06.png",
+    "/api/public/site-media/imweb1488_23087475_07.png",
+    "/api/public/site-media/imweb1488_23087475_08.png",
+    "/api/public/site-media/imweb1488_23087475_09.png",
+    "/api/public/site-media/imweb1488_23087475_10.png"
+   ],
+   "cat": "cd",
+   "title": "2단 영상디스플레이 음반",
+   "sub": "Music · CD",
+   "desc": "2단형 영상디스플레이 음반입니다.\n싸바리방식으로 제작하여 품질이 우수하며, 고급스럽습니다.\n표지를 열면 영상이 자동으로 실행되며,\n5개의 물리버튼으로 영상을 실행, 다음영상, 전영상, 소리 키우기, 줄이기 기능을 제공입니다.\n자체 스피커가 들어있어서 생생한 음질을 즐길 수 있습니다.\n내부 메모리는 고객이 원하는 용량으로 적용할 수 있습니다.\n(1G/4G/8G/16G/32G)\n자체 USB포트가 있기 때문에 충전하여 지속 사용가능하며, 완충 시 영상 재생 시간은 3시간입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23087678_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23087678_02.png",
+    "/api/public/site-media/imweb1488_23087678_03.png",
+    "/api/public/site-media/imweb1488_23087678_04.png",
+    "/api/public/site-media/imweb1488_23087678_05.png"
+   ],
+   "cat": "cd",
+   "title": "영상디스플레이 음반",
+   "sub": "Music · CD",
+   "desc": "2단 싸바리 영상디스플레이 음반.\n7인치 디스플레이\n5개 물리버튼\n스피커\n배터리\n저장용량 1기가\n자동전원\n기존의 음반에서 더 진보된 영상디스플레이 음반입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23087863_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23087863_02.png",
+    "/api/public/site-media/imweb1488_23087863_03.png",
+    "/api/public/site-media/imweb1488_23087863_04.png",
+    "/api/public/site-media/imweb1488_23087863_05.png",
+    "/api/public/site-media/imweb1488_23087863_06.png",
+    "/api/public/site-media/imweb1488_23087863_07.png",
+    "/api/public/site-media/imweb1488_23087863_08.png",
+    "/api/public/site-media/imweb1488_23087863_09.png"
+   ],
+   "cat": "cd",
+   "title": "3단 싸바리 영상음반",
+   "sub": "Music · CD",
+   "desc": "180x180 3단 싸바리 영상 디스플레이 CD앨범\n가로 1800 세로180 사이즈의 3단형 영상 디스플레이 음반입니다.\n패키지를 펼치면 중앙에 7인치 영상 디스플레이가 자동으로 실행됩니다.\n(미공개 뮤직비디오등 다양한 영상을 담을 수 있습니다.)\n패키지의 왼쪽에는 CD를 넣을 수 있는 보드 트레이를 부착하였습니다.\n사용용도에 따라 왼쪽면에는 책자를 붙일 수 있습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23088271_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23088271_02.png",
+    "/api/public/site-media/imweb1488_23088271_03.png",
+    "/api/public/site-media/imweb1488_23088271_04.png",
+    "/api/public/site-media/imweb1488_23088271_05.png",
+    "/api/public/site-media/imweb1488_23088271_06.png",
+    "/api/public/site-media/imweb1488_23088271_07.png",
+    "/api/public/site-media/imweb1488_23088271_08.png",
+    "/api/public/site-media/imweb1488_23088271_09.png"
+   ],
+   "cat": "cd",
+   "title": "가수 김희재 음반 패키지",
+   "sub": "Music · CD",
+   "desc": "가수 김희재 음반 패키지입니다.\n기본형 주얼케이스형 2종과 스페셜반(책자형)으로 제작되었습니다.\n주얼형 앞면 책자 16p\n스페셜형 220x260 포토북\n(표지안쪽 굿즈포켓, 뒷면 안쪽 CD포켓)",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23088334_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23088334_02.png",
+    "/api/public/site-media/imweb1488_23088334_03.png",
+    "/api/public/site-media/imweb1488_23088334_04.png",
+    "/api/public/site-media/imweb1488_23088334_05.png",
+    "/api/public/site-media/imweb1488_23088334_06.png"
+   ],
+   "cat": "cd",
+   "title": "케빈변(변기수) CD음반/ 소형2단 디지팩",
+   "sub": "Music · CD",
+   "desc": "변기수 골프TV 케빈변의 (싱글이고 싶어요)\nCD와 소형2단 디지팩으로 제작되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23088408_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23088408_02.png",
+    "/api/public/site-media/imweb1488_23088408_03.png",
+    "/api/public/site-media/imweb1488_23088408_04.png",
+    "/api/public/site-media/imweb1488_23088408_05.png",
+    "/api/public/site-media/imweb1488_23088408_06.png",
+    "/api/public/site-media/imweb1488_23088408_07.png"
+   ],
+   "cat": "cd",
+   "title": "뮤지컬 더데빌 OST패키지",
+   "sub": "Music · CD",
+   "desc": "뮤지컬 더데빌의 OST앨범 패키지입니다.\n대형 4단 4트레이 디지팩 2단 도무송 최고급형\n+\n80P 랑데뷰 포토북",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23088834_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23088834_02.png",
+    "/api/public/site-media/imweb1488_23088834_03.png",
+    "/api/public/site-media/imweb1488_23088834_04.png",
+    "/api/public/site-media/imweb1488_23088834_05.png",
+    "/api/public/site-media/imweb1488_23088834_06.png",
+    "/api/public/site-media/imweb1488_23088834_07.png",
+    "/api/public/site-media/imweb1488_23088834_08.png",
+    "/api/public/site-media/imweb1488_23088834_09.png"
+   ],
+   "cat": "cd",
+   "title": "가수 양준일 포토북 패키지",
+   "sub": "Music · CD",
+   "desc": "가수 양준일님의 포토북 패키지입니다.\n가로 240mm 세로300mm 두께 35mm\n엔젤블랙용지로 자석 표지바리 지함케이스를 만들었습니다.\n내부에는 포토북과 음반, 아크릴등신대, 자석포토카드, 브로마이드, 디켓등의 굿즈가 들어갔습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23088910_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23088910_02.png",
+    "/api/public/site-media/imweb1488_23088910_03.png",
+    "/api/public/site-media/imweb1488_23088910_04.png",
+    "/api/public/site-media/imweb1488_23088910_05.png"
+   ],
+   "cat": "cd",
+   "title": "이찬원 정규1집(풍등)",
+   "sub": "Music · CD",
+   "desc": "가수 이찬원 정규 1집 (풍등)\n친환경 CD앨범 패키지\nF골 골판지를 이용하여 개발된 친환경 패키지 입니다.\n100% 재활용이 가능한 재질입니다.\n제품 사이즈 가로 150mm 세로 150mm 두께 10mm\nCD를 넣는 부분에는 플라스틸 코아를 사용하지 않고, 종이의 라운드와 선을 이용하여 부착할 수 있도록 고안되었습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23089049_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23089049_02.png",
+    "/api/public/site-media/imweb1488_23089049_03.png",
+    "/api/public/site-media/imweb1488_23089049_04.png",
+    "/api/public/site-media/imweb1488_23089049_05.png",
+    "/api/public/site-media/imweb1488_23089049_06.png",
+    "/api/public/site-media/imweb1488_23089049_07.png",
+    "/api/public/site-media/imweb1488_23089049_08.png"
+   ],
+   "cat": "usb",
+   "title": "이찬원 USB 싸바리 스페셜 패키지 앨범",
+   "sub": "Music · USB",
+   "desc": "가수 이찬원의 스페셜 USB 싸바리 패키지\n제품 사이즈 가로 350mm 세로 160 두께 30m으로 큰 크기로 제작된 양장 싸바리 패키지입니다.\n안쪽에는 USB와 책자, 브로마이드, 포토카드, 스티커, 3D렌티큘러 엽서, 책갈피등 여러가지 굿즈가 하나의 패키지에 들어가 있는\n스페셜 패키지입니다.\n패키지의 모든 기획과 제작은 저희 보다아트에서 진행했습니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23089125_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23089125_02.png",
+    "/api/public/site-media/imweb1488_23089125_03.png",
+    "/api/public/site-media/imweb1488_23089125_04.png",
+    "/api/public/site-media/imweb1488_23089125_05.png",
+    "/api/public/site-media/imweb1488_23089125_06.png",
+    "/api/public/site-media/imweb1488_23089125_07.png",
+    "/api/public/site-media/imweb1488_23089125_08.png",
+    "/api/public/site-media/imweb1488_23089125_09.png",
+    "/api/public/site-media/imweb1488_23089125_10.png"
+   ],
+   "cat": "cd",
+   "title": "가수 조명섭 2집 싸바리 앨범",
+   "sub": "Music · CD",
+   "desc": "티엔엔터테인먼트 소속 가수 조명섭님의 2집 앨범\n가로 165mm 세로 225mm 두께 12mm\n겉지 스노우 150 / 면지 동일\n표지부분 무광 금박\n자켓 표지 랑데뷰210g / 내지 랑데뷰 130g 20P 무선재본\nCD트레이 1600보드 / 스펀지 코어\nCD와 스펀지만 때어내면 100% 재활용 가능.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23089176_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23089176_02.png",
+    "/api/public/site-media/imweb1488_23089176_03.png",
+    "/api/public/site-media/imweb1488_23089176_04.png",
+    "/api/public/site-media/imweb1488_23089176_05.png"
+   ],
+   "cat": "cd",
+   "title": "미스트롯2 양지은 디지팩 앨범",
+   "sub": "Music · CD",
+   "desc": "미스트롯2 양지은님의 디지팩 앨범\n가로 140mm 세로 125mm 두께 7mm\n겉지 CCP 350g / 합지\n자켓 표지 랑데뷰130g / 내지 랑데뷰 130g 4P\nCD트레이 투명플라스틱\n디자인: 보다아트",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_23089266_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_23089266_02.png",
+    "/api/public/site-media/imweb1488_23089266_03.png",
+    "/api/public/site-media/imweb1488_23089266_04.png",
+    "/api/public/site-media/imweb1488_23089266_05.png",
+    "/api/public/site-media/imweb1488_23089266_06.png"
+   ],
+   "cat": "cd",
+   "title": "미스트롯2 가수 윤희 대형 디지팩 앨범",
+   "sub": "Music · CD",
+   "desc": "미스트롯2 가수 윤희님의 대형2단 디지팩 앨범\n가로 138mm 세로 188mm 두께 7mm\nccp 350g / 합지\n자켓 표지 랑데뷰130g / 내지 랑데뷰 130g",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_22779968_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_22779968_02.png",
+    "/api/public/site-media/imweb1488_22779968_03.png",
+    "/api/public/site-media/imweb1488_22779968_04.png",
+    "/api/public/site-media/imweb1488_22779968_05.png"
+   ],
+   "cat": "cd",
+   "title": "가수 조성모님의 앨범입니다.",
+   "sub": "Music · CD",
+   "desc": "가수 조성모님의 앨범입니다.",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_22780036_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_22780036_02.png",
+    "/api/public/site-media/imweb1488_22780036_03.png",
+    "/api/public/site-media/imweb1488_22780036_04.png"
+   ],
+   "cat": "cd",
+   "title": "교육용CD",
+   "sub": "Music · CD",
+   "desc": "교육용CD\n주얼케이스 + 앞 4페이지 자켓 + 뒤 1페이지 자켓 적용",
+   "featured": 0,
+   "fo": 0
+  },
+  {
+   "img": "/api/public/site-media/imweb1488_22780170_01.png",
+   "imgs": [
+    "/api/public/site-media/imweb1488_22780170_02.png",
+    "/api/public/site-media/imweb1488_22780170_03.png",
+    "/api/public/site-media/imweb1488_22780170_04.png",
+    "/api/public/site-media/imweb1488_22780170_05.png"
+   ],
+   "cat": "cd",
+   "title": "시크릿 멤버 송지은 25 음반제작",
+   "sub": "Music · CD",
+   "desc": "시크릿 송지은씨의 스물다섯 일본판 음반입니다.\n음반CD와 영상DVD로 패키지제작.",
+   "featured": 0,
+   "fo": 0
+  }
+ ],
+ "pages": {
+  "album": {
+   "title": "음반CD제작",
+   "en": "MUSIC ALBUM",
+   "type": "product",
+   "intro": "인디음반, 대중가요, 성인가요(트로트), OST, 클라우드펀딩 음반까지 — 발매에 필요한 전 과정을 보다아트가 함께합니다.",
+   "sections": [
+    {
+     "h": "이런 음반을 만듭니다",
+     "cards": [
+      {
+       "t": "인디음반",
+       "d": "100~200장 소량 생산도 가능합니다. 첫 앨범도 부담 없이 시작하세요."
+      },
+      {
+       "t": "대중가요",
+       "d": "정규·싱글·스페셜 앨범 제작."
+      },
+      {
+       "t": "성인가요 (트로트)",
+       "d": "전용 USB 앨범 등 장르에 맞는 포맷을 함께 권해 드립니다."
+      },
+      {
+       "t": "OST 음반",
+       "d": "드라마·영화·게임 OST 앨범."
+      },
+      {
+       "t": "클라우드펀딩",
+       "d": "펀딩 리워드용 앨범·굿즈 패키지 제작."
+      }
+     ],
+     "img": {
+      "url": "/api/public/site-media/1787549015603_site_1787549015662.jpg",
+      "cap": ""
+     }
+    },
+    {
+     "h": "미리 알아두세요",
+     "cards": [
+      {
+       "t": "CD 저장 용량 700MB",
+       "d": "가득 채우면 읽기 실패나 음 튐이 날 수 있습니다. 650MB 이내를 권장합니다.\n음원은 80분 미만으로 들어가야 적당합니다."
+      },
+      {
+       "t": "DVD 저장 용량 4.7GB",
+       "d": "마찬가지로 약 4GB 이내를 권장합니다."
+      },
+      {
+       "t": "음원 CD는 프레싱 권장",
+       "d": "음원 앨범은 500장 이상 프레싱 제작을 권합니다. 소량이 필요하시면 최저 배속 복제로 최대한 안정적으로 만들어 드립니다."
+      }
+     ]
+    },
+    {
+     "h": "소량 제작과 대량 제작",
+     "ps": [
+      "500장을 기준으로 제작 방식이 나뉩니다."
+     ],
+     "table": {
+      "head": [
+       "",
+       "소량 제작 (500장 미만)",
+       "대량 제작 (500장 이상)"
+      ],
+      "rows": [
+       [
+        "인쇄",
+        "표면 UV경화인쇄",
+        "옵셋 인쇄 (스탬퍼 프레싱)"
+       ],
+       [
+        "복제",
+        "1:1 복사 (최저 배속으로 안정적으로)",
+        "공장 프레싱"
+       ],
+       [
+        "디스크 크기",
+        "120×120mm",
+        "118×118mm"
+       ],
+       [
+        "CD 내경",
+        "18mm",
+        "23mm"
+       ],
+       [
+        "DVD 내경",
+        "21mm",
+        "23mm"
+       ],
+       [
+        "색상 모드",
+        "RGB",
+        "CMYK"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "소량 제작, 이렇게 만듭니다",
+     "steps": [
+      {
+       "t": "소량 방식 결정",
+       "d": "500장 미만 수량은 소량 제작 방식으로 진행됩니다."
+      },
+      {
+       "t": "표면 인쇄",
+       "d": "디스크 표면에 UV경화 인쇄를 합니다."
+      },
+      {
+       "t": "1:1 복제",
+       "d": "인쇄·코팅 뒤 최저 배속으로 복제해 안정적인 미디어를 만듭니다."
+      },
+      {
+       "t": "케이스 선택",
+       "d": "5mm 슬림케이스 · 10mm 주얼케이스 · DVD케이스 · 각종 종이케이스"
+      },
+      {
+       "t": "인쇄물 선택",
+       "d": "슬림은 앞 자켓만, 주얼은 앞·뒤. DVD투명케이스는 양면 인쇄가 가능합니다."
+      }
+     ]
+    },
+    {
+     "h": "주문부터 출고까지, 여섯 단계",
+     "steps": [
+      {
+       "t": "견적·상담",
+       "d": "온라인 견적 또는 전화·메일 상담으로 사양과 수량을 확정합니다."
+      },
+      {
+       "t": "디자인·데이터",
+       "d": "칼선에 맞춘 디자인 파일과 음원 데이터를 보다ERP에 접수하고 함께 점검합니다."
+      },
+      {
+       "t": "시안 확정",
+       "d": "인쇄 시안과 마스터를 확인하신 뒤 최종 제작을 승인합니다."
+      },
+      {
+       "t": "마스터링",
+       "d": "공장 프레싱용 마스터를 제작하고 오류 검증까지 완료합니다."
+      },
+      {
+       "t": "제작·인쇄",
+       "d": "디스크와 패키지 인쇄·후가공을 병행해 기간을 단축합니다."
+      },
+      {
+       "t": "검수·출고",
+       "d": "전수 검수 후 안전 포장하여 지정 주소로 출고합니다."
+      }
+     ]
+    },
+    {
+     "h": "자료 보내실 때",
+     "cards": [
+      {
+       "t": "크기",
+       "d": "CD 외경 120×120mm · 내경 18mm / DVD 외경 120×120mm · 내경 21mm (소량 기준)"
+      },
+      {
+       "t": "해상도·색상",
+       "d": "300dpi · RGB (소량 표면 인쇄 기준)"
+      },
+      {
+       "t": "파일 형식",
+       "d": "포토샵(PSD)·일러스트(EPS) 원본과 함께 반드시 JPG 파일을 같이 보내 주세요."
+      },
+      {
+       "t": "폰트",
+       "d": "폰트는 아웃라인을 따서 보내 주세요. (일러스트: 전체 선택 후 Ctrl+Shift+O)"
+      }
+     ],
+     "notice": "접수 후 담당자가 파일과 곡 순서를 함께 확인하고, 시안 확인을 거친 뒤 제작에 들어갑니다. 칼선 파일은 고객지원의 칼선다운로드에서 받으실 수 있습니다."
+    },
+    {
+     "h": "들어가는 것들 — 케이스와 인쇄물",
+     "ps": [
+      "미디어·케이스·인쇄물이 한 세트입니다. 이 제품에 맞는 것만 보여 드립니다."
+     ],
+     "chips": [
+      "연질케이스",
+      "슬림케이스 (5mm)",
+      "주얼케이스 (10mm)",
+      "DVD케이스",
+      "종이케이스",
+      "디지팩",
+      "앞 자켓 1P~32P (중철)",
+      "뒷자켓 단면·양면",
+      "내지"
+     ]
+    },
+    {
+     "h": "자주 묻는 질문",
+     "faq": [
+      {
+       "q": "최소 몇 장부터 제작할 수 있나요?",
+       "a": "품목에 따라 달라 견적 요청 시 함께 안내해 드립니다. 인디음반은 100~200장 소량 생산도 가능합니다."
+      },
+      {
+       "q": "제작 기간은 얼마나 걸리나요?",
+       "a": "대량(프레싱) 제작은 배송까지 1주일 정도입니다. 소량 제작과 후가공이 있는 패키지는 사양에 따라 별도로 안내해 드립니다."
+      }
+     ]
+    }
+   ],
+   "cta": {
+    "h": "내 음반, 지금 시작하세요",
+    "p": "장르와 수량만 알려주시면 알맞은 구성을 안내해 드립니다."
+   }
+  },
+  "usb": {
+   "title": "USB음반제작",
+   "en": "USB ALBUM",
+   "type": "product",
+   "intro": "미니2단부터 대형2단, 성인가요 USB까지 — 구성과 패키지를 한 곳에서 완성합니다.",
+   "sections": [
+    {
+     "h": "이런 USB 음반을 만듭니다",
+     "ps": [
+      "스틱·카드·스틸·카세트형까지 다양한 몸체로 USB 음반을 제작합니다. 음원과 영상·화보까지 한 장의 USB에 담아 전달할 수 있고, 복제 방지 USB 제작도 가능해 음원 유출 걱정을 덜 수 있습니다.",
+      "USB 가격에는 인쇄비와 데이터 입력비가 포함됩니다. 음반용 저장용량은 4GB·8GB가 적당하며, 필요에 따라 더 큰 용량으로도 제작합니다."
+     ]
+    },
+    {
+     "h": "USB 패키지 여섯 가지",
+     "cards": [
+      {
+       "t": "미니2단 USB 디지팩",
+       "d": "스틱·카드형 USB를 수납하는 CCP 용지 디지팩. 100장부터 생산 가능하고, CD보다 작아 보관이 쉽습니다."
+      },
+      {
+       "t": "소형2단 USB 디지팩",
+       "d": "일반 CD 디지팩을 USB용으로. CD와 같은 크기라 표지 안쪽에 가사집을 넣을 수 있습니다."
+      },
+      {
+       "t": "소형4단 CD/USB 디지팩",
+       "d": "볼륨감 있는 음반을 원할 때 어울리는 구성입니다."
+      },
+      {
+       "t": "대형2단 CD/USB 디지팩",
+       "d": "CD와 USB를 한 면에 함께 넣을 때 사용합니다."
+      },
+      {
+       "t": "성인가요 USB",
+       "d": "휴대성이 좋고 미니2단보다 부담이 적어 행사·방송 활동에 알맞습니다."
+      },
+      {
+       "t": "USB 싸바리 케이스",
+       "d": "고급 선물용. 상단 1도 인쇄에 금박·은박도 가능합니다."
+      }
+     ]
+    },
+    {
+     "h": "자료 보내실 때",
+     "ps": [
+      "USB 음원은 MP3 파일로, 파일명에 순서와 곡명을 정확히 표기해 압축한 뒤 메일로 보내주세요.",
+      "디자인 파일은 포토샵(PSD)·일러스트(EPS) 원본에 반드시 JPG를 함께 보내주시고, 폰트는 아웃라인 처리해 주세요(일러스트: 전체 선택 후 Ctrl+Shift+O)."
+     ]
+    }
+   ],
+   "cta": {
+    "h": "USB 음반 견적",
+    "p": "구성·용량·수량만 고르시면 사양 그대로 견적을 보내드립니다."
+   }
+  },
+  "hospital-cd": {
+   "title": "병원CD제작",
+   "en": "HOSPITAL PACS CD",
+   "type": "product",
+   "intro": "병원 전용 PACS CD를 주문 앱으로 간편하게. 제작부터 납품까지 한 흐름으로 이어집니다.",
+   "sections": [
+    {
+     "h": "병원 PACS CD (의료영상정보 CD)",
+     "ps": [
+      "보다아트는 병원용 의료영상정보CD를 전문으로 생산해 온 병원 전문 CD 제작사입니다.\n높은 품질의 병원CD를 합리적인 가격으로 전국 병원에 납품하고 있습니다."
+     ]
+    },
+    {
+     "h": "병원 PACS CD, 왜 보다아트인가",
+     "cards": [
+      {
+       "t": "합리적인 가격",
+       "d": "가격은 합리적으로, 품질은 높게 제작합니다."
+      },
+      {
+       "t": "디자인 기획이 무료",
+       "d": "병원CD 전문 디자이너가 직접, 무료로 디자인 작업을 해드립니다."
+      },
+      {
+       "t": "주문 앱으로 간편하게",
+       "d": "주문부터 제작 현황, 시안 확인까지 BODA PACS 주문 앱 화면에서 한 번에 진행됩니다."
+      },
+      {
+       "t": "빠른 납품",
+       "d": "제작 기간은 평균 배송까지 1주일 미만입니다."
+      }
+     ]
+    },
+    {
+     "h": "병원 PACS CD 제작방법",
+     "steps": [
+      {
+       "t": "견적 상담",
+       "d": "필요한 매체를 파악하고(CD 700M / DVD 4.7G), 6개월~1년 사용량을 가늠합니다(500~1,000장 준비가 합리적입니다). CD/DVD를 담을 케이스를 고르고, 견적의뢰 또는 전화 상담으로 패키지를 정한 뒤 견적서를 발행합니다."
+      },
+      {
+       "t": "제작기획·디자인",
+       "d": "병원 로고파일 원본(AI, PSD)과 전경사진(선택)을 준비하고, 병원의 주소·대표번호·진료시간·진료과목·슬로건을 문서로 정리해 본사로 보내주세요."
+      },
+      {
+       "t": "디자인 수정·확정",
+       "d": "1차본 디자인을 주문 앱 화면에서 확인하고, 수정사항이 있으면 원하는 형태로 고쳐 확정합니다."
+      },
+      {
+       "t": "제작·납품",
+       "d": "디자인 확정 후 세금계산서 발행과 입금 확인을 거쳐 제작에 들어갑니다. 배송까지 평균 1주일 미만입니다."
+      }
+     ]
+    },
+    {
+     "h": "병원CD 케이스 종류",
+     "ps": [
+      "병원의 성격에 맞는 케이스로 제작합니다."
+     ],
+     "chips": [
+      "슬림DVD케이스형",
+      "편지형 종이케이스",
+      "대형2단 종이케이스",
+      "3단 포켓형 DM종이케이스"
+     ]
+    }
+   ],
+   "cta": {
+    "h": "병원CD 주문은 전용 앱에서",
+    "p": "주문·진행 상황·시안 확인·월 내역까지 한 곳에서 봅니다.",
+    "link": "/api/public/hospital",
+    "link_label": "PACS 주문 앱 바로가기"
+   }
+  },
+  "mobile-album": {
+   "title": "모바일음반",
+   "en": "MOBILE ALBUM",
+   "type": "product",
+   "theme": "dark",
+   "intro": "스트리밍처럼 사라지지 않고, 받은 기기에서 인터넷 없이 계속 소장하는 스마트 앨범입니다.",
+   "sections": [
+    {
+     "h": "카드 한 장으로 여는 나만의 음반",
+     "ps": [
+      "보다코드 카드를 폰으로 한 번 스캔하면, 음원과 사진과 영상이 그대로 내 폰에 담깁니다.\n한 번 받아두면 인터넷이 없는 곳에서도 계속 들을 수 있습니다."
+     ],
+     "img": {
+      "url": "/media/bodam1.jpg",
+      "cap": ""
+     }
+    },
+    {
+     "h": "앱 실행 화면",
+     "video": "/media/bodaapp.mp4",
+     "ps": [
+      "보다뮤직 앱에서 앨범이 이렇게 재생됩니다."
+     ]
+    },
+    {
+     "h": "음원만 있는 게 아닙니다",
+     "ps": [
+      "한 장의 음반에 아티스트가 담고 싶었던 모든 것이 들어갑니다."
+     ],
+     "cards": [
+      {
+       "t": "음원",
+       "d": "고음질 원본 그대로, 끊김 없이."
+      },
+      {
+       "t": "사진",
+       "d": "앨범 화보와 미공개 컷."
+      },
+      {
+       "t": "영상",
+       "d": "뮤직비디오, 비하인드, 인사 영상."
+      },
+      {
+       "t": "게임 15종",
+       "d": "포카 리듬, 짝맞추기, 가수와 네컷 등."
+      },
+      {
+       "t": "플레이리스트",
+       "d": "여러 음반의 곡을 내 마음대로."
+      }
+     ],
+     "img": {
+      "url": "/media/bodam3.jpg",
+      "cap": ""
+     }
+    },
+    {
+     "h": "스트리밍과는 다릅니다",
+     "ps": [
+      "빌려 듣는 음악이 아니라, 손에 쥔 음반을 폰에 담는 방식입니다."
+     ],
+     "cards": [
+      {
+       "t": "인터넷 없이도 재생됩니다",
+       "d": "한 번 받아두면 내 폰 안에 남습니다. 통신이 안 되는 곳에서도 끊기지 않고, 데이터 요금도 들지 않습니다."
+      },
+      {
+       "t": "앱 안에서 결제가 없습니다",
+       "d": "음반을 구입하시면 그것으로 끝입니다. 앱 안에 결제 버튼 자체가 없어서, 잘못 눌러 돈이 나갈 일이 없습니다."
+      },
+      {
+       "t": "아티스트의 음원을 지킵니다",
+       "d": "음원은 봉인된 상태로 전달되어 내 기기에서만 열립니다. 파일을 빼내 퍼뜨릴 수 없어 아티스트가 안심하고 담을 수 있습니다."
+      },
+      {
+       "t": "폰을 바꿔도 다시 받습니다",
+       "d": "구입 기록이 계정에 남습니다. 새 폰에서 로그인하면 서재에 「이 폰에 없는 내 음반」이 뜨고, 눌러서 다시 받으면 됩니다."
+      }
+     ]
+    },
+    {
+     "h": "30초면 끝납니다",
+     "ps": [
+      "복잡한 가입 절차도, 긴 설명도 필요 없습니다. 카드를 폰에 대기만 하면 됩니다."
+     ],
+     "steps": [
+      {
+       "t": "카드를 스캔합니다",
+       "d": "음반에 들어 있는 보다코드 카드를 앱의 스캔 버튼으로 비춥니다. 잘 안 읽히면 카드 아래 12자리 번호를 직접 입력해도 됩니다."
+      },
+      {
+       "t": "내 서재에 담깁니다",
+       "d": "음원·사진·영상이 통째로 내 폰에 저장됩니다. 다 받은 뒤에는 서재에서 언제든 꺼내 봅니다."
+      },
+      {
+       "t": "인터넷 없이 듣습니다",
+       "d": "지하철에서도, 시골집에서도, 비행기에서도 그대로 재생됩니다. 데이터가 들지 않습니다."
+      }
+     ],
+     "img": {
+      "url": "/media/bodam2.jpg",
+      "cap": ""
+     }
+    },
+    {
+     "h": "모바일음반 패키지",
+     "ps": [
+      "모바일음반 카드 앨범을 위한 전용 패키지. 카드와 패키지 박스를 하나의 디자인으로 완성합니다."
+     ],
+     "chips": [
+      "카드",
+      "패키지 박스"
+     ]
+    },
+    {
+     "h": "음반을 내고 싶으신가요",
+     "ps": [
+      "보다뮤직은 실물 음반과 디지털을 한 장으로 잇습니다. 음원·화보·영상·게임까지 하나의 카드에 담아 팬에게 전달합니다."
+     ],
+     "cards": [
+      {
+       "t": "실물 음반",
+       "d": "CD·USB 없이 카드 한 장으로 음반을 발행하고 싶은 경우."
+      },
+      {
+       "t": "음원 보호",
+       "d": "미발표곡·팬 전용 음원이 유출되지 않게 전달해야 하는 경우."
+      },
+      {
+       "t": "팬 콘텐츠",
+       "d": "사진·영상·포토카드를 음반 안에 함께 담고 싶은 경우."
+      },
+      {
+       "t": "소량 제작",
+       "d": "공연장 판매·팬미팅 굿즈처럼 적은 수량이 필요한 경우."
+      }
+     ],
+     "notice": "제작 단가는 수량과 구성에 따라 달라집니다. 문의 주시면 견적을 드립니다. 이메일 bodacd@naver.com",
+     "img": {
+      "url": "/media/bodam4.jpg",
+      "cap": ""
+     }
+    }
+   ],
+   "cta": {
+    "h": "모바일음반, 시작해 보세요",
+    "p": "카드 디자인·인쇄·패키지 제작과 앨범 발행을 한 곳에서 진행합니다.",
+    "mail": 1
+   }
+  },
+  "ssabari": {
+   "title": "싸바리패키지",
+   "en": "SSABARI PACKAGE",
+   "type": "product",
+   "intro": "디지팩·싸바리·종이케이스 — 음반의 첫인상을 결정하는 인쇄 패키지를 완성도 있게 만듭니다.",
+   "sections": [
+    {
+     "h": "100% 국내산 케이스를 사용합니다",
+     "ps": [
+      "수입산 케이스는 내구성이 낮아 쉽게 깨지고 불쾌한 냄새가 나는 경우가 있습니다. 보다아트는 100% 국내산 일반 케이스만 사용해 내구성이 높습니다."
+     ]
+    },
+    {
+     "h": "일반 케이스",
+     "cards": [
+      {
+       "t": "슬림케이스",
+       "d": "가장 일반적인 케이스. 앞면에만 인쇄물이 들어가며 색상은 블랙·화이트·투명, 두께 5mm입니다."
+      },
+      {
+       "t": "주얼케이스",
+       "d": "두께 10mm, 앞뒤로 인쇄물이 들어갑니다. 앞면은 1P~32P 중철까지, 트레이는 블랙·투명·흰색으로 바꿀 수 있습니다."
+      },
+      {
+       "t": "DVD케이스",
+       "d": "단면 인쇄 후 삽입하면 ㄷ자로 접힙니다. 투명케이스는 양면 인쇄가 가능해 열면 인쇄물이 안에서 보이고, 내부에 내지를 추가할 수 있습니다."
+      },
+      {
+       "t": "고주파 케이스",
+       "d": "종이 창봉투책에 부착되는 케이스입니다."
+      }
+     ]
+    },
+    {
+     "h": "디지팩과 싸바리",
+     "cards": [
+      {
+       "t": "디지팩",
+       "d": "소형·대형, 2단부터 4단까지 — CD 1장부터 4장 구성까지 다양하게 만듭니다."
+      },
+      {
+       "t": "싸바리 케이스",
+       "d": "고급 선물용 하드보드 상자. 금박·은박 가공이 가능합니다."
+      },
+      {
+       "t": "종이케이스",
+       "d": "2단·4단 구성의 가벼운 케이스입니다."
+      }
+     ]
+    },
+    {
+     "h": "인쇄물",
+     "ps": [
+      "자켓은 단면부터 32P까지 제작하며, 기본 용지는 아트지 150g입니다(다른 용지를 원하시면 견적 때 말씀해 주세요). 케이스 뒷판 인쇄, 포토카드·엽서 추가도 가능합니다."
+     ]
+    }
+   ],
+   "cta": {
+    "h": "싸바리패키지 맞춤 문의",
+    "p": "모양·수량·예산 범위를 알려 주시면 알맞은 안을 드립니다.",
+    "mail": 1
+   }
+  }
+ },
+ "split0870": "2026-08-21T18:01:53.506Z",
+ "vid0872": "2026-08-21T18:33:17.852Z",
+ "hero0872": "2026-08-21T18:38:46.284Z",
+ "mob0877": "2026-08-24T10:21:57.302Z",
+ "ord0880": "2026-08-24T11:24:58.753Z",
+ "pg0882": "2026-08-24T11:35:35.049Z",
+ "pkg0886": "2026-08-24T12:56:22.424Z",
+ "vid1029": {
+  "ts": "2026-09-08T12:38:32.034Z",
+  "prev": "",
+  "url": "/media/bodamain0908.mp4"
+ },
+ "vid1316": {
+  "ts": "2026-09-29T06:39:45.083Z",
+  "hero": 2,
+  "title": "병원CD제작",
+  "prev": {
+   "video": ""
+  }
+ },
+ "vid1317": {
+  "ts": "2026-09-29T06:55:07.696Z",
+  "hero": 2,
+  "title": "병원CD제작",
+  "prev": {
+   "poster": "/media/hospvidpost1316.jpg",
+   "start": 4.9
+  }
+ }
+}
