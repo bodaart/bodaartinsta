@@ -4,7 +4,8 @@ import json, os, sys, tempfile, html
 from PIL import Image, ImageFilter
 from playwright.sync_api import sync_playwright
 
-FONT = '/tmp/claude-0/-home-claude-bodaartinsta/042daeec-5a90-5867-af5e-b6d21b954c86/scratchpad/reels/package/dist/public/static'
+import os
+FONT = os.environ.get('PFFONT', '/tmp/claude-0/-home-claude-bodaartinsta/042daeec-5a90-5867-af5e-b6d21b954c86/scratchpad/reels/package/dist/public/static')
 W, H = 1080, 1350
 INK, ROSE, DEEP, SAND, BEIGE, IVORY, TAUPE, GREY, F4 = '#2B2320', '#C4877C', '#9A5A51', '#D9C6B2', '#EADFD1', '#F7F2EB', '#B39A85', '#7B6D64', '#F4EEE4'
 
