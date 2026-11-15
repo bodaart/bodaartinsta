@@ -225,4 +225,4 @@ window.render=function(t){
   g.style.backgroundImage=`url(grain${k%3}.png)`;
   g.style.transform=`translate(${Math.round((rnd(k)-.5)*30)}px,${Math.round((rnd(k+40)-.5)*30)}px)`;
 };
-document.fonts.ready.then(()=>{window.render(0);window.ready=true});
+window.addEventListener('load',()=>document.fonts.ready.then(()=>{window.render(0);window.ready=true}));
