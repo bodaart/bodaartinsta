@@ -93,6 +93,8 @@ def frame(k, n, no, label, bdimg, inner, foot_r, glow=(ROSE, SAND), big=None):
 
 def parse(cap):
     b = cap.split('\n\n')
+    if '옆으로 넘겨' in b[0]:  # 11.15 새 틀: 첫 덩어리가 "제목\n보다아트가 만든 음반을 하나씩 소개해요. 옆으로 넘겨 보세요"
+        b = [''] + [b[0].split('\n')[0]] + b[1:]
     head = re.sub(r'^\[[^\]]+\]\s*', '', b[1])
     intro = b[2].split('\n')
     specs = [l[2:].split(': ', 1) for l in b[3].split('\n') if l.startswith('· ')]
@@ -162,12 +164,11 @@ def slides(spec, cap, ph):
     c, h = card(*P(1), 300, 210, 480, 360, 'transform:perspective(1400px) rotateY(-10deg) rotate(-2deg)')
     c2, _ = card(*P(2), 600, 300, 400, 300, 'transform:perspective(1400px) rotateY(10deg) rotate(3deg)')
     c3, _ = card(*P(0), 110, 330, 360, 280, 'transform:perspective(1400px) rotateY(12deg) rotate(-5deg)')
-    pills = '<span class="pill lime">200장까지 소량</span> <span class="pill ghost" style="margin-left:10px">300장부터 프레싱</span>' if iscd else '<span class="pill lime">기획부터 생산까지</span>'
+    # 11.15 승민 "너무 광고성으로만 가지말고 우리것을 알리는 정도로" → 수량 알약·문의 문구 없이 소개로 맺음
     inner = c3 + c + c2 + (f'<div style="position:absolute;left:72px;right:72px;top:770px">'
              f'<div class="num">2007년부터 음반을 만들어 왔어요</div>'
-             f'<div class="h" style="font-size:88px;margin-top:18px">음반 제작은<br><span class="s">보다아트</span></div>'
-             f'<div style="margin-top:34px">{pills}</div>'
-             f'<div class="p" style="margin-top:34px;font-size:34px">CD · USB 음반 + 모바일 앱 음반<br><b style="color:{SAND}">문의는 프로필 링크 · bodacd.co.kr</b></div></div>')
+             f'<div class="h" style="font-size:84px;margin-top:18px">음반을 만드는<br><span class="s">보다아트</span></div>'
+             f'<div class="p" style="margin-top:34px;font-size:34px">CD · USB 음반, 그리고 모바일 앱 음반까지<br><span style="color:{SAND}">bodacd.co.kr</span></div></div>')
     out.append(frame(6, n, no, label, P(0)[0], inner, 'bodacd.co.kr'))
     return out
 

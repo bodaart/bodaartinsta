@@ -28,6 +28,24 @@ LAB = {'album': '음반', 'usb': 'USB 음반'}
 HEAD = '보다아트에서 만든 샘플을 하나씩 소개해요.'
 Y07 = '보다아트는 2007년부터 음반을 만들어 왔어요.'
 CDQ = ' 200장까지는 소량으로, 300장부터는 프레싱으로 만들어요.'
+# 11.15 조회수 원칙: 첫 줄에 물건 이름(검색어) + 넘겨 보라는 말, 해시태그는 5개까지(인스타 25.12 규칙).
+# 같은 날 승민 "너무 광고성으로만 가지말고 사람들에게 우리것을 알리는 정도로" → 저장·보내기 권유 줄은 넣지 않고 소개하는 말투로.
+SWIPE = '보다아트가 만든 음반을 하나씩 소개해요. 옆으로 넘겨 보세요 👉'
+TAG5 = {35: '#음반제작 #CD제작 #소량CD제작 #인디음반 #보다아트', 36: '#음반제작 #뮤지컬OST #싸바리 #무인도탈출기 #보다아트',
+  37: '#음반제작 #CD제작 #핑크퐁 #종이케이스 #보다아트', 38: '#앨범제작 #음반패키지 #멀티케이스 #포토카드 #보다아트',
+  39: '#음반제작 #CD제작 #종이케이스 #군조 #보다아트', 40: '#음반제작 #영상음반 #싸바리 #한정반 #보다아트',
+  41: '#음반제작 #CD제작 #기념음반 #평창올림픽 #보다아트', 42: '#음반제작 #앨범제작 #싸바리 #렌카 #보다아트',
+  43: '#음반제작 #CD제작 #종이케이스 #힙합 #보다아트', 44: '#음반제작 #앨범제작 #블루레이케이스 #음반패키지 #보다아트',
+  45: '#음반제작 #CD제작 #교육용CD #동요CD #보다아트', 46: '#음반제작 #앨범제작 #싸바리 #CD케이스 #보다아트'}  # 손으로 고른 5개(없으면 pick5)
+def pick5(tags):
+    t = tags.split()
+    core = [x for x in ['#음반제작', '#앨범제작', '#CD제작', '#USB음반'] if x in t][:2]
+    spec = [x for x in t if x not in core and x not in ('#보다아트', '#그때그시절') and x not in ['#음반제작', '#앨범제작', '#CD제작', '#USB음반']]
+    out = core + spec[-2:] + ['#보다아트']
+    for x in t:
+        if len(out) >= 5: break
+        if x not in out: out.append(x)
+    return ' '.join(out[:5])
 CTA = {'album': '비슷한 음반을 생각하고 계시면 프로필 링크로 편하게 물어봐 주세요.',
        'pkg': '비슷한 패키지를 생각하고 계시면 프로필 링크로 편하게 물어봐 주세요.',
        'usb': 'USB 음반이 궁금하시면 프로필 링크로 편하게 물어봐 주세요.',
@@ -121,9 +139,9 @@ for date, time, cat, no, idx, order, title, head, intro, spec_lines, mean, then,
         photos.append(ph)
     sid = f'pf{cat}{no:02d}v1'
     specs.append({'id': sid, 'label': LAB[cat], 'no': no, 'title': title, 'photos': photos, 'src_index': idx, 'foot': 'bodacd.co.kr'})
-    parts = [HEAD, f'[{LAB[cat]}] {head}', '\n'.join(intro), '\n'.join('· ' + s for s in spec_lines), mean + '\n' + then]
+    parts = [f'{head}\n' + SWIPE, '\n'.join(intro), '\n'.join('· ' + s for s in spec_lines), mean + '\n' + then]
     parts.append(Y07 + (CDQ if iscd else '') + '\n' + CTA[cta])
-    parts.append(tags)
+    parts.append(TAG5.get(no) or pick5(tags))
     cap = '\n\n'.join(parts)
     queue.append({'id': sid, 'date': '2026-' + date, 'time': time, 'cat': cat, 'ref': f'2026-{date} {LAB[cat]} No.{no:02d} {head}', 'caption': cap})
 json.dump(specs, open(OUT + 'week5.json', 'w'), ensure_ascii=False, indent=1)
