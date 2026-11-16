@@ -27,3 +27,15 @@ sj_V_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr
 sj_V_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114249_e54c87de-1ec0-46b0-9d53-feeded367b43.wav
 sj_V_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114352_4a73cd84-cdf4-4590-be74-f1f589c63e1c.wav
 sj_V_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114407_84492bbf-7870-483e-bd07-91430ac70454.wav
+sj_S_0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114407_e0ec9e05-1dcd-42ca-9a1f-a8027962cdd0.wav
+sj_S_1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114434_f4b73cfb-e54e-45e4-9a00-e741d04c05bd.wav
+sj_S_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114434_6b874ff6-6d77-4d03-9e39-f31033a21be0.wav
+sj_S_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114453_1027d903-5e1d-45ec-813a-88d5c11b6b32.wav
+sj_S_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114452_85c647db-a81d-44f4-ac41-e87d373b26e6.wav
+sj_S_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114509_3c9b795b-eb55-44bd-9b63-39e6a0730a5b.wav
+sj_T_0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114508_9c3dd54a-cea0-4fe3-b0a6-d0cc46ec0d40.wav
+sj_T_1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114526_6943ba3d-b12a-448e-b8c0-9ecaade8124c.wav
+sj_T_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114526_f134c670-5adf-4081-91f0-0972f0edd569.wav
+sj_T_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114542_dd7e2ab0-cfbc-4b48-ba0e-49036b88bc6d.wav
+sj_T_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114542_667df309-a770-4a5e-b00a-33235e7dd948.wav
+sj_T_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114555_64ba07a7-1497-42cd-8c53-87393d615e40.wav
