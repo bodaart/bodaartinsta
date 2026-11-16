@@ -12,3 +12,6 @@ vo_V_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr
 vo_V_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_110657_e137b291-3c0b-4ff3-9e12-ab532db1c4a6.wav
 vo_V_0b.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_111222_12949725-a723-42ad-ad6a-a916900d5701.wav
 vo_V_1b.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_111221_aa715951-47e8-427c-ba44-8b64527e3f5c.wav
+voice_A_hyunwoo.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_112438_ac6a682d-e5ff-4617-9e75-96ece7835847.wav
+voice_B_seojun.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_112438_d27bb513-f7cb-4828-9b4e-f34c8682fffb.wav
+voice_C_qwen.mp3 https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_112451_3c3bec85-3433-4435-a64b-d779aeb8cbbe.mp3
