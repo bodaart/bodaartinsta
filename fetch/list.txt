@@ -50,3 +50,8 @@ sj_C_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr
 sj_C_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053023_6d93376d-4f9d-49ee-8365-07d85fbda361.wav
 sj_C_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053040_2e978b43-53e6-412e-9a19-23a8093bb122.wav
 sj_C_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053039_f7987b20-65c0-48e3-922b-8a1b5728b477.wav
+cr_v0.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053408_2beb9ffc-6396-425e-851b-67bd42d3b95d.mp4
+cr_v1.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053408_17bcc9e7-fadb-499e-bdd2-ea67ab646aa5.mp4
+cr_v2.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053407_c85db133-7cab-4ee6-bbcd-37156f7f0cf0.mp4
+cr_v3.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053407_ca6dc451-2336-4222-98fc-10688433b691.mp4
+cr_v4.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053407_2f046a86-39c4-44a5-9509-3b440f9508a5.mp4
