@@ -39,3 +39,14 @@ sj_T_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr
 sj_T_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114542_dd7e2ab0-cfbc-4b48-ba0e-49036b88bc6d.wav
 sj_T_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114542_667df309-a770-4a5e-b00a-33235e7dd948.wav
 sj_T_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261116_114555_64ba07a7-1497-42cd-8c53-87393d615e40.wav
+cr_s0.png https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_052937_4098e659-97a8-446e-a802-2ef188872a78.png
+cr_s1.png https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_052938_4c895e98-d864-40b1-bfa2-ec5f7a813be7.png
+cr_s2.png https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_052938_a5017224-fa67-45ba-9775-6158feb70abe.png
+cr_s3.png https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_052937_21056f02-c77b-4e9a-b534-0b7e141fcb70.png
+cr_s4.png https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_052939_852f0da5-98e6-42e9-9a5e-3a8576fe14eb.png
+sj_C_0.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053000_99010dc3-322c-4c6b-b8e6-e6ce4a53a132.wav
+sj_C_1.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_052959_78145c1a-6454-4d6a-bdfa-a9a989a539bc.wav
+sj_C_2.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053023_8f6a1778-57b8-4018-84b8-857f469b8c05.wav
+sj_C_3.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053023_6d93376d-4f9d-49ee-8365-07d85fbda361.wav
+sj_C_4.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053040_2e978b43-53e6-412e-9a19-23a8093bb122.wav
+sj_C_5.wav https://d8j0ntlcm91z4.cloudfront.net/user_3Gx7aBwByaJR55bOFQx85X3xdbr/hf_20261124_053039_f7987b20-65c0-48e3-922b-8a1b5728b477.wav
